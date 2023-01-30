@@ -11,7 +11,7 @@ Essentially, the website is for people who are interested in buying Legos to get
 
 Users stories:
 -As a customer, I want to buy the lego sets, so that I can build Legos
-- As a lego fanatic, I want to learn more about Legos and share my interest with other people, so that I can grow my interest in Legos.
+-As a lego fanatic, I want to learn more about Legos and share my interest with other people, so that I can grow my interest in Legos.
 -As a regular customer, I would want an easy way to access the legos I'm interested in, so that I can get more Legos.
 
 ## Features
@@ -26,8 +26,8 @@ Goes over the features in my website.
 -Feature 4- Implement the Quiz for users to play and earn points, as well as, learn more about Legos.
 -Feature 5 - Implement a "design your own Lego character" page, to let users personalise their profiles.
 -Feature 6 - Add a contact page so that users are able to find us whenever they have feedback or face issues in the website.
-- Feature 7 - Implement a profile page that allows users to view their orders and likes, as well as edit their particulars.
-- Features 8 - Add a sign up and sign in page, for users to enter their account.
+-Feature 7 - Implement a profile page that allows users to view their orders and likes, as well as edit their particulars.4
+-Features 8 - Add a sign up and sign in page, for users to enter their account.
 
 
 ## Technologies used
