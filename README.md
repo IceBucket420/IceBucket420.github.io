@@ -58,4 +58,5 @@ In this section, I mention all of the languages, frameworks, libraries, and any 
  ### Media
   - 
  ### Acknowledgements 
-  - 
+  - Shopee website and app
+  - Lego shop
