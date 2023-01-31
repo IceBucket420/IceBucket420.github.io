@@ -209,5 +209,22 @@ li a {
     text-align: center;
 }
 
+.location p {
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.inquery{
+    padding: 3%;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.inquery textarea{
+    padding:3%;
+}
+
 
     
