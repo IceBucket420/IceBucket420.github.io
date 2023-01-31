@@ -53,6 +53,8 @@ li a {
     font-family:'Sofia Sans Extra Condensed', sans-serif;
     font-size: 100px;
     text-align: center;
+    background-color: #f6bc58;
+    padding: 2%;
 }
 
 .featured iframe{
@@ -67,6 +69,113 @@ li a {
     padding:5%;
     text-align: center;
 }
+
+
+.games h1{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    background-color: #f6bc58;
+    padding: 2%;
+}
+
+.quiz{
+    display: flex;
+    justify-content: center;
+    padding:5%;
+}
+
+.quiztext {
+    display: flex;
+    flex-direction: column;
+    padding-left:15%;
+}
+
+.quiztext h2{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 100px;
+}
+
+.quiztext p{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 50px;
+    padding-left: 30px;
+}
+
+
+.quiztext button{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+    background-color:#f6bc58;
+    color:black;
+    width:150px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.quizbutton{
+    padding-left: 50px;
+}
+
+
+.quiztext a{
+    color: black;
+    text-decoration: none;
+}
+
+.quizimg{
+    display: flex;
+    padding-left: 15%;
+}
+
+.dchara{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+
+}
+
+.dcharatext {
+    display: flex;
+    flex-direction: column;
+    padding-left:15%;
+}
+
+.dcharatext h2{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 100px;
+}
+
+
+
+.dcharatext button{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+    background-color:#f6bc58;
+    color:black;
+    width:150px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.dcharabutton{
+    padding-left: 200px;
+}
+
+
+.dcharatext a{
+    color: black;
+    text-decoration: none;
+}
+
+.dcharaimg{
+    display: flex;
+    padding-left: 10%;
+}
+
+
 
 
     
