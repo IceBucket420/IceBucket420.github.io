@@ -26,6 +26,7 @@ body{
 .minibar {
     display: flex;
     justify-content: flex-end;
+    padding-right: 50px;
 }
 
 .bar li {
@@ -38,7 +39,7 @@ body{
 
 .minibar li {
     display: inline;
-    padding-right: 100px;
+    padding-right: 10px;
     list-style-type: none;
 }
 
