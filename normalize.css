@@ -1,3 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed&display=swap');
+
 body{
-    background: color #8dceff; ;
+    background-color: #8dceff; ;
 }
+
+.logo{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    padding: 2%;
+    justify-content: center;
+    background: color #f6bc58; ;
+}
+
+.bar{
+    font-size: 25px;
+    background-color:#f6bc58;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top:3px;
+}
+
+.minibar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bar li {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    display: inline;
+    padding: 50px;
+    list-style-type: none;
+}
+
+.minibar li {
+    display: inline;
+    padding-right: 100px;
+    list-style-type: none;
+}
+
+
+li a {
+    color: black;
+    text-decoration: none;
+    }
