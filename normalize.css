@@ -243,5 +243,11 @@ li a {
     border-radius: 5px;
 }
 
+.thanks{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding:3%;
+}
 
     
