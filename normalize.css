@@ -209,6 +209,12 @@ li a {
     text-align: center;
 }
 
+.location iframe{
+    padding-top:5%;
+    position:relative;
+    overflow: hidden;
+}
+
 .location p {
     font-family:'Barlow Condensed', sans-serif;
     font-size: 50px;
@@ -223,7 +229,18 @@ li a {
 }
 
 .inquery textarea{
-    padding:3%;
+    padding:5%;
+}
+
+#submitBtn{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+    background-color:#f6bc58;
+    color:black;
+    width:150px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
 }
 
 

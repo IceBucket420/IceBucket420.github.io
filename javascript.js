@@ -1,8 +1,10 @@
-function Map1234() { 
-    var mapOpt4 = {  
-        center: new google.maps.LatLng(51.508742,-0.120850),  
-        zoom:9,  
-        mapTypeId: google.maps.MapTypeId.TERRAIN  
-      };
-      var w = new google.maps.Map(document.getElementById("Map"),mapOpt4);  
-}  
+let btnSubmit = document.getElementById('submitBtn');
+let msg ="Thank you for contacting us! You will receive an email in 3-4 working days.";
+   
+
+btnSubmit.addEventListener('click', function(e){
+
+  e.preventDefault();
+  document.getElementById('userdetails').innerHTML = msg;
+ 
+});
