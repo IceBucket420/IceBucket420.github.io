@@ -49,6 +49,12 @@ li a {
     text-decoration: none;
     }
 
+.featured h1{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
 .featured iframe{
     padding-top:5%;
     position:relative;
