@@ -461,7 +461,7 @@ li a {
 }
 
 
-.tri{
+.tri1{
     padding-top:25px;
     padding-left: 80%;
 }
@@ -474,10 +474,13 @@ li a {
     background-color:#f6bc58;
 }
 
-.likes img{
+.tri2{
     padding-top:25px;
-    
+    padding-left: 81.5%;
 }
+
+
+
 
 
 /*resizing*/
