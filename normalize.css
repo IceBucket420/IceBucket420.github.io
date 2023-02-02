@@ -500,7 +500,15 @@ li a {
     border: none;
 }
 
-
+.points{
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    padding:5%;
+    background-color: #f6bc58;
+    font-size: 40px;
+    margin-top:5% ;
+    margin-bottom:5% ;
+}
 
 
 /*resizing*/
