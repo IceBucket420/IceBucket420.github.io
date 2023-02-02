@@ -461,9 +461,9 @@ li a {
 }
 
 
-.order img{
+.tri{
     padding-top:25px;
-    justify-content: flex-end;   
+    padding-left: 80%;
 }
 
 .likes{
