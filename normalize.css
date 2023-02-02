@@ -252,6 +252,9 @@ li a {
 
 .product_heading {
     text-align: center;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+
   }
 
   .lego_store p {
