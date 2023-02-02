@@ -113,7 +113,6 @@ li a {
 }
 
 .quiztext {
-    display: flex;
     flex-direction: column;
     padding-left:15%;
 }
@@ -152,7 +151,6 @@ li a {
 }
 
 .quizimg{
-    display: flex;
     padding-left: 15%;
 }
 
@@ -164,7 +162,6 @@ li a {
 }
 
 .dcharatext {
-    display: flex;
     flex-direction: column;
     padding-left:15%;
 }
@@ -198,7 +195,6 @@ li a {
 }
 
 .dcharaimg{
-    display: flex;
     padding-left: 10%;
 }
 
