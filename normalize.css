@@ -359,7 +359,7 @@ li a {
     padding-bottom: 3%;
   }
 
-  .counter input {
+.counter input {
     width: 80px;
     border: 0;
     line-height: 40px;
@@ -371,7 +371,7 @@ li a {
     outline: 0;
   }
   
-  .counter span {
+.counter span {
     display: block;
     font-size: 80px;
     padding: 0 10px;
