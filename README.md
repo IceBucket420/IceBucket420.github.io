@@ -38,12 +38,12 @@ In this section, I mention all of the languages, frameworks, libraries, and any 
 - HTML
 - CSS
 - Javascript
-- API
 - JQuery
  ### Tools used:
 - Adobe XD
 - visual studio code
 - google fonts
+- RestDB
 
 
 ## Testing
