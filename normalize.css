@@ -444,20 +444,45 @@ li a {
 .profile{
     text-align: center;
     font-family:'Sofia Sans Extra Condensed', sans-serif;
+    padding:5%
     
 }
 
 .profile h1{
-    font-size: 50px;
+    font-size: 80px;
 }
 
 .profile h2{
-    font-size: 25px;
+    font-size: 45px;
 }
 
 .order{
-    
+    display: flex;
+    font-family:'Barlow Condensed', sans-serif;
+    padding:3%;
+    font-size: 30px;
+    background-color:#f6bc58;
 }
+
+.order img{
+    padding-top:25px;
+    padding-left: 1500%;
+}
+
+.likes{
+    display: flex;
+    font-family:'Barlow Condensed', sans-serif;
+    padding:3%;
+    font-size: 30px;
+    background-color:#f6bc58;
+}
+
+.likes img{
+    padding-top:25px;
+    padding-left: 1500%;
+}
+
+
 /*resizing*/
   @media screen and (max-width: 576px) {
     .lego_product {
