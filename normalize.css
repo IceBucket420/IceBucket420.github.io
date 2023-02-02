@@ -257,7 +257,6 @@ li a {
 
   }
 
-
   .lego_product {
     display: flex;
     flex-direction: row;
@@ -267,39 +266,31 @@ li a {
   .legocol_1 {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 3%;
     
   }
 
   .legocol_2 {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 3%;
   }
 
   .legocol_3 {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 3%;
   }
 
   .lego_image {
-    height: 300px;
-    width: 300px;
-  }
-
-  .product_1 h3 {
-    margin-bottom: 13.5%;
-  }
-
-  .product_5 h3 {
-    margin-bottom: 13.5%;
-  }
-  .product_6 h3 {
-    margin-bottom: 13.5%;
+    height: 400px;
+    width: 400px;
   }
 
   .learnmore_button {
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+    background-color:#f6bc58;
     text-decoration: none;
     color: black;
     font-size: 18px;
@@ -311,6 +302,8 @@ li a {
     border: 2px solid black;
     border-radius: 20px;
   }
+
+/*product details*/
 
   .product_detail {
     text-align: center;
