@@ -250,6 +250,8 @@ li a {
     padding:3%;
 }
 
+/* Product pages*/
+
 .product_heading {
     text-align: center;
     font-family:'Sofia Sans Extra Condensed', sans-serif;
@@ -261,6 +263,16 @@ li a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .lego_product h3{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .lego_product p{
+    text-align: center;
   }
 
   .legocol_1 {
