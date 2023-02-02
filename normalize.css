@@ -399,10 +399,19 @@ li a {
     background-color: #f6bc58;
     padding: 2%;
 }
+.ca{
+    padding-left:90%;
+}
 
 .claimall{
-   
-
+   padding-top:10px;
+   padding-bottom: 10px;
+   padding-right: 30px;
+   padding-left: 30px;
+   background-color:#f6bc58;
+   font-family:'Sofia Sans Extra Condensed', sans-serif;
+   font-size: 30px;
+   border: none;
 }
 
 .collect{
@@ -413,6 +422,21 @@ li a {
 
 .collect h2{
     font-size: 40px;
+}
+
+.collect h3{
+    font-size: 30px;
+}
+
+.claim{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:#f6bc58;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    border: none;
 }
 
   
