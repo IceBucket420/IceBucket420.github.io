@@ -387,6 +387,11 @@ li a {
 
 /*rewards page*/
 
+.reward{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .reward h1{
     font-family:'Sofia Sans Extra Condensed', sans-serif;
     font-size: 100px;
@@ -394,6 +399,14 @@ li a {
     background-color: #f6bc58;
     padding: 2%;
 }
+
+.collect{
+    padding: 5%;
+    background-color: #f6bc58;
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+}
+
   
 /*resizing*/
   @media screen and (max-width: 576px) {
