@@ -7,7 +7,7 @@ btnSubmit.addEventListener('click', function(e){
   e.preventDefault();
   document.getElementById('userdetails').innerHTML = msg;
  
-});
+})
 
 function increaseCount(a, b) {
   var input = b.previousElementSibling;
