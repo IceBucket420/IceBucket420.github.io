@@ -24,13 +24,12 @@ a{
 
 .socials {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .socials li {
     list-style: none;
-    padding-left:50px;
+    padding: 40px;
 }
 
 .logo{
