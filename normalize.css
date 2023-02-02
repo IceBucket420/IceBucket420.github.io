@@ -260,44 +260,44 @@ li a {
 
   }
 
-  .lego_product {
+.lego_product {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 5%;
   }
 
-  .lego_product h3{
+.lego_product h3{
     font-family:'Barlow Condensed', sans-serif;
     font-size: 30px;
     text-align: center;
     padding: 3%;
   }
 
-  .lego_product p{
+.lego_product p{
     text-align: center;
   }
 
-  .legocol_1 {
+.legocol_1 {
     display: flex;
     flex-direction: column;
     padding: 3%;
     
   }
 
-  .legocol_2 {
+.legocol_2 {
     display: flex;
     flex-direction: column;
     padding: 3%;
   }
 
-  .legocol_3 {
+.legocol_3 {
     display: flex;
     flex-direction: column;
     padding: 3%;
   }
 
-  .lego_image {
+.lego_image {
     height: 400px;
     width: 400px;
   }
@@ -313,7 +313,7 @@ li a {
     padding-bottom: 5%;
 }
 
-  .learnmore_button {
+.learnmore_button {
     font-family:'Sofia Sans Extra Condensed', sans-serif;
     background-color:#f6bc58;
     text-decoration: none;
@@ -330,33 +330,49 @@ li a {
 
 /*product details*/
 
-  .product_detail {
+.product_detail {
     font-family:'Sofia Sans Extra Condensed', sans-serif;
     text-align: center;
     margin-bottom: 30px;
     padding:5%;
   }
 
-  .product_detail p {
-    font-size: 20px;
-  }
 
-  .product_detail h2{
-    font-size: 40px;
+.product_detail h2{
+    font-size: 50px;
     padding: 3%;
   }
 
-  .desc {
+.product_detail h3{
+    font-size: 40px;
+}
+
+.product_detail iframe{
+    position:relative;
+    overflow: hidden;
+    padding: 3%;
+
+}
+
+.desc {
     font-family:'Barlow Condensed', sans-serif;
     text-align: center;
+    padding:3%;
+    font-size: 20px;
+    background-color:#f6bc58;
   }
 
-  .detail_photo {
-    height:600px;
-    width: 600px;
+.desc h4{
+    font-size: 30px;
+}
+
+
+.detail_photo {
+    height:800px;
+    width: 800px;
   }
 
-  .cart_button {
+.cart_button {
     text-decoration: none;
     color: black;
     border: 2px;
@@ -366,6 +382,7 @@ li a {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 6px;
+    font-size: 40px;
   }
 
   @media screen and (max-width: 576px) {
