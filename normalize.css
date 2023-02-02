@@ -332,35 +332,41 @@ li a {
 /*product details*/
 
   .product_detail {
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
     text-align: center;
     margin-bottom: 30px;
+    padding:5%;
   }
 
   .product_detail p {
     font-size: 20px;
   }
 
+  .product_detail h2{
+    font-size: 40px;
+    padding: 3%;
+  }
+
   .desc {
-    text-align: left;
-    margin-left: 35%;
+    font-family:'Barlow Condensed', sans-serif;
+    text-align: center;
   }
 
   .detail_photo {
-    height: 450px;
-    width: 450px;
-    margin-top: 20px;
-    
+    height:600px;
+    width: 600px;
   }
 
   .cart_button {
     text-decoration: none;
     color: black;
-    border: 2px solid black;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 20px;
+    border: 2px;
+    background-color:#f6bc58;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
   }
 
   @media screen and (max-width: 576px) {
