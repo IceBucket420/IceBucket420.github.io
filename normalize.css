@@ -265,12 +265,14 @@ li a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 5%;
   }
 
   .lego_product h3{
     font-family:'Barlow Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+    padding: 3%;
   }
 
   .lego_product p{
@@ -301,19 +303,29 @@ li a {
     width: 400px;
   }
 
+.product_4{
+    padding-bottom: 5%;
+}
+
+.product_2{
+    padding-bottom: 5%;
+}
+.product_3{
+    padding-bottom: 5%;
+}
+
   .learnmore_button {
     font-family:'Sofia Sans Extra Condensed', sans-serif;
-    font-size: 50px;
     background-color:#f6bc58;
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 30px;
     margin: 5px;
-    padding-left: 95px;
+    padding-left: 100px;
     padding-right: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: 2px solid black;
+    border: 2px;
     border-radius: 20px;
   }
 
