@@ -385,6 +385,9 @@ li a {
     font-size: 40px;
   }
 
+
+  
+/*resizing*/
   @media screen and (max-width: 576px) {
     .lego_product {
         flex-direction: column;
