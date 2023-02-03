@@ -65,7 +65,7 @@ In this section, I mention all of the languages, frameworks, libraries, and any 
  ### Content
   - LEGO shop
  ### Media
-  - 
+  - flaticon (used social icons)
  ### Acknowledgements 
   - Shopee website and app
   - Lego shop
