@@ -1,4 +1,6 @@
 # A website for LEGOHOLIC 
+
+
 ## About
 
  For this project, it is about making a website for a ecommerce platform, LEGOHOLIC, a shop that sells Legos.
