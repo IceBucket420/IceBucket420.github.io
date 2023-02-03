@@ -19,15 +19,19 @@ Users stories:
 Goes over the features in my website.
 
 ### Existing Features
-### Future implementations
-- Feature 1- Navigation bar to be implemented, this allows users to access differeent pages.
-- Feature 2 - Add socails to the footer, so that users have more options to learn more about LEGOs.
+- Feature 1- Navigation bar is implemented, this allows users to access differeent pages.
+- Feature 2 - Added socials and links to LEGO shop to the footer,so that users have more options to learn more about LEGOs.
 - Feature 3 - Add a product page for users to buy Legos, with a search bar to allow users to search for the Legos they want.
-- Feature 4- Implement the Quiz for users to play and earn points, as well as, learn more about Legos.
-- Feature 5 - Implement a "design your own Lego character" page, to let users personalise their profiles.
-- Feature 6 - Add a contact page so that users are able to find us whenever they have feedback or face issues in the website.
-- Feature 7 - Implement a profile page that allows users to view their orders and likes, as well as edit their particulars.4
-- Features 8 - Add a sign up and sign in page, for users to enter their account.
+- Feature 4 - Add a contact page so that users are able to find us whenever they have feedback or face issues in the website.
+- Feature 5 - Implement a profile page (still on the process of touching up)
+- Feature 6 - Added reward page so that user can claim the points they recieve from activities.
+
+### Future implementations
+- Feature 1- maybe implement a searchbar in future interations, to allow users to find what they need easily
+- Feature 2- Implement the Quiz for users to play and earn points, as well as, learn more about Legos.
+- Feature 3 - Implement a "design your own Lego character" page, to let users personalise their profiles.
+- Feature 4 - Implement a profile page that allows users to view their orders and likes, as well as edit their particulars.4
+- Feature 5 - Add a sign up and sign in page, for users to enter their account, with API to store user information.
 
 
 ## Technologies used
@@ -49,12 +53,15 @@ In this section, I mention all of the languages, frameworks, libraries, and any 
 ## Testing
  This section include scenarios that have not been automated.
 
+ ### Issue
+ 1. Counter for quantity count in product page had some issues.Javascript was not linked properly.
+
  
 ## Credits
  References and materials I used. 
 
  ### Content
-  - 
+  - LEGO shop
  ### Media
   - 
  ### Acknowledgements 
