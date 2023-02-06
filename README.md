@@ -34,6 +34,7 @@ Goes over the features in my website.
 - Feature 3 - Implement a "design your own Lego character" page, to let users personalise their profiles.
 - Feature 4 - Implement a profile page that allows users to view their orders and likes, as well as edit their particulars.
 - Feature 5 - Add a sign up and sign in page, for users to enter their account, with API to store user information.
+- Feature 6 - implement a point system to keep track of their discounts 
 
 
 ## Technologies used
