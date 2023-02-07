@@ -31,10 +31,10 @@ Goes over the features in my website.
 ### Future implementations
 - Feature 1- maybe implement a searchbar in future interations, to allow users to find what they need easily
 - Feature 2- Implement the Quiz for users to play and earn points, as well as, learn more about Legos.
-- Feature 3 - Implement a "design your own Lego character" page, to let users personalise their profiles.
+- Feature 3 - Implement a "design your own Lego character" page, to let users personalise their profiles and make their own LEGO characters.
 - Feature 4 - Implement a profile page that allows users to view their orders and likes, as well as edit their particulars.
 - Feature 5 - Add a sign up and sign in page, for users to enter their account, with API to store user information.
-- Feature 6 - implement a point system to keep track of their discounts 
+- Feature 6 - Implement a point system where users can gain points from rewards, where they can then use the points for discounts in the shop.
 
 
 ## Technologies used
