@@ -557,7 +557,16 @@ li a {
     margin-bottom:5% ;
 }
 
+/*quiz*/
 
+.quiz{
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz h1 h2{
+    text-align: center;
+}
 /*resizing*/
   @media screen and (max-width: 576px) {
     .lego_product {
