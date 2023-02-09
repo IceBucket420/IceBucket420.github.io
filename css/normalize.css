@@ -104,11 +104,6 @@ li a {
     padding: 2%;
 }
 
-.quiz{
-    display: flex;
-    justify-content: center;
-    padding:5%;
-}
 
 .quiztext {
     flex-direction: column;
