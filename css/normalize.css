@@ -573,6 +573,25 @@ li a {
     border: none;
 }
 
+/* cart*/
+.cart_heading {
+    text-align: center;
+  }
+
+  #cart_produce {
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cart_photo {
+    height: 350px;
+    width: 350px;
+  }
+
+  #cart_info {
+    margin-left: 15%;
+  }
 
 /*quiz*/
 
