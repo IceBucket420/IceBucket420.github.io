@@ -604,6 +604,11 @@ li a {
     text-align: center;
 }
 
+/*sign in page*/
+
+.container{
+    text-align: center;
+}
 /*resizing*/
   @media screen and (max-width: 576px) {
     .lego_product {
