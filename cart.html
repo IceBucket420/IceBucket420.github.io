@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+        <title>Cart</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/legoholic logo-06.png" width="100">
+            </div>
+            <nav class="bar">
+                <ul>  
+                    <li> 
+                    <a href="index.html"> Home </a>  
+                    </li>  
+                    <li>  
+                    <a href="product.html">Products </a>  
+                    </li>  
+                    <li>  
+                    <a href="contact.html">Contact</a>  
+                    </li>  
+                    <li> <a href="reward.html">Reward</a>  
+                    </li>  
+                </ul>
+            </nav>
+            <div class="minibar">
+                <ul>
+                    <li>
+                        <a href="cart.html"><img src="images/bag.png" width="80"></a>
+                    </li>
+                    <li>
+                        <a href="profile.html"><img src="images/profile.png" width="80"></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <h1 class="cart_heading"><u>Cart</u></h1>
+        </section>
+        <section id="cart_produce">
+            <section id="cart_image">
+                <img class= "cart_image" id="product-image" src="images/product_1.jpeg">
+            </section>
+            <section id="cart_info">
+                <h2 id="product-name"></h2>
+                <h2 id="product-price">Price</h2>
+                <h2 id="product-quantity">Quantity</h2>
+            </section>
+        </section>
+        <p><a class= "checkout_button" href="#">Check Out</a>
+            <label id="show-username">Username</label>
+            <br>
+            <label id="show-password">Password</label>
+            <br>
+            <label id="show-email">Email</label>
+            <div class="container mt-5">
+                <h2>Table information of Cart</h2>
+                <table class="table" id="cart-list">
+                  <thead>
+                    <th>Password</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Image</th>
+                    <th colspan="2">Actions</th>
+            
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+
+              <div class="container mt-5" id="update-cart-container">
+                <div id="add-update-msg">
+                    <div class="alert alert-success" role="alert">
+                        Cart updated
+                    </div>
+                </div>
+                <h4>Update Cart</h4>
+                <div class="form" id="update-cart">
+                    <form id="update-cart-form">
+                        <h3>Quantity:</h3>
+                        <div class="counter">
+                            <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                            <input type="text" value="1">
+                            <span class="up" onClick='increaseCount(event, this)'>+</span>
+                        </div>
+                        <input type="hidden" id="update-product-id">
+                        <input type="submit" value="Update Cart" class="btn btn-warning" id="update-cart-submit">
+                    </form>
+                </div>
+            </div>
+        <footer>  
+            <section class="social_media">
+                <a href="https://www.facebook.com/LEGO/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/LEGO_Group" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/lego/" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com/user/LEGO?app=desktop" class="fa fa-youtube"></a>
+            </section>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+
+</html>
