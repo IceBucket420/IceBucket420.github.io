@@ -552,6 +552,28 @@ li a {
     margin-bottom:5% ;
 }
 
+.logout{
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    padding:5%;
+    background-color: #f6bc58;
+    font-size: 40px;
+    margin-top:5% ;
+    margin-bottom:5% ;
+}
+
+.logout_button {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:lightyellow;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    border: none;
+}
+
+
 /*quiz*/
 
 .quiz{
