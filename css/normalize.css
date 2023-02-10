@@ -608,7 +608,30 @@ li a {
 
 .container{
     text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    padding:5%;
+    font-size: 30px;
 }
+
+.container h1{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 60px;
+    padding: 2%;
+}
+
+.container button{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:#f6bc58;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    border: none;
+    border-radius: 10%;
+
+}
+
 /*resizing*/
   @media screen and (max-width: 576px) {
     .lego_product {
