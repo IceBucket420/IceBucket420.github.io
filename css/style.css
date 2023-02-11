@@ -591,9 +591,15 @@
     text-align: center;
   }
 
+#question{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    font-style: bold;
+}
+
 #form{
     font-family:'Barlow Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #start{
