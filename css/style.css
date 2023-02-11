@@ -1,3 +1,4 @@
+/* header*/
 .socials {
     display: flex;
     justify-content: center;   
@@ -45,6 +46,8 @@
     padding-right: 10px;
     list-style-type: none;
 }
+
+/*Home page*/
 
 .featured h1{
     font-family:'Sofia Sans Extra Condensed', sans-serif;
@@ -160,6 +163,8 @@
 .dcharaimg{
     padding-left: 10%;
 }
+
+/*contact page*/
 
 .location h1{
     font-family:'Sofia Sans Extra Condensed', sans-serif;
