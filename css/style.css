@@ -45,3 +45,623 @@
     padding-right: 10px;
     list-style-type: none;
 }
+
+.featured h1{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding: 2%;
+}
+
+.featured iframe{
+    padding-top:5%;
+    position:relative;
+    overflow: hidden;
+}
+
+.featured h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    padding:5%;
+    text-align: center;
+}
+
+
+.games h1{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding: 2%;
+}
+
+
+.quiztext {
+    flex-direction: column;
+    padding-left:15%;
+}
+
+.quiztext h2{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 100px;
+}
+
+.quiztext p{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 50px;
+    padding-left: 30px;
+}
+
+
+.quiztext button{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+    background-color:#f6bc58;
+    color:black;
+    width:150px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.quizbutton{
+    padding-left: 50px;
+}
+
+
+.quiztext a{
+    color: black;
+    text-decoration: none;
+}
+
+.quizimg{
+    padding-left: 15%;
+}
+
+.dchara{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+
+}
+
+.dcharatext {
+    flex-direction: column;
+    padding-left:15%;
+}
+
+.dcharatext h2{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 100px;
+}
+
+
+
+.dcharatext button{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+    background-color:#f6bc58;
+    color:black;
+    width:150px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.dcharabutton{
+    padding-left: 200px;
+}
+
+
+.dcharatext a{
+    color: black;
+    text-decoration: none;
+}
+
+.dcharaimg{
+    padding-left: 10%;
+}
+
+.location h1{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.location iframe{
+    padding-top:5%;
+    position:relative;
+    overflow: hidden;
+}
+
+.location p {
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.inquery{
+    padding: 3%;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.inquery textarea{
+    padding:5%;
+}
+
+#submitBtn{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+    background-color:#f6bc58;
+    color:black;
+    width:150px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.thanks{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding:3%;
+}
+
+/* Product page*/
+
+.product_heading {
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding: 2%;
+
+  }
+
+.lego_product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5%;
+  }
+
+.lego_product h3{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 3%;
+  }
+
+.lego_product p{
+    text-align: center;
+  }
+
+.legocol_1 {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    
+  }
+
+.legocol_2 {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+  }
+
+.legocol_3 {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+  }
+
+.lego_image {
+    height: 400px;
+    width: 400px;
+  }
+
+.product_4{
+    padding-bottom: 5%;
+}
+
+.product_2{
+    padding-bottom: 5%;
+}
+.product_3{
+    padding-bottom: 5%;
+}
+
+.learnmore_button {
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    background-color:#f6bc58;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px;
+    border-radius: 20px;
+  }
+
+/*product details*/
+
+.product_detail {
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    padding:5%;
+  }
+
+
+.product_detail h2{
+    font-size: 50px;
+    padding-top: 3%;
+  }
+
+.product_detail h3{
+    font-size: 40px;
+}
+
+.product_detail iframe{
+    position:relative;
+    overflow: hidden;
+    padding: 3%;
+
+}
+
+.sketchfab-embed-wrapper {
+    padding: 3%;
+    font-size: 20px; 
+    font-weight: normal; 
+    margin: 5px; 
+    color: #4A4A4A;
+    
+}
+
+.sketchfab-embed-wrapper a{
+    font-weight: bold; 
+    color: #1CAAD9;
+    
+}
+
+.sketchfab-embed-wrapper iframe{
+    position:relative;
+    overflow: hidden;
+    padding: 3%;
+}
+
+.counter {
+    width: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3%;
+  }
+
+.counter input {
+    width: 80px;
+    border: 0;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    background: lightyellow;
+    color: black;
+    appearance: none;
+    outline: 0;
+  }
+  
+.counter span {
+    display: block;
+    font-size: 80px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: black;
+    user-select: none;
+  }
+
+.desc {
+    font-family:'Barlow Condensed', sans-serif;
+    text-align: center;
+    padding:3%;
+    font-size: 20px;
+    background-color:#f6bc58;
+  }
+
+.desc h4{
+    font-size: 30px;
+}
+
+
+.detail_photo {
+    height:800px;
+    width: 800px;
+  }
+
+.cart_button {
+    text-decoration: none;
+    color: black;
+    border: 2px;
+    background-color:#f6bc58;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    font-size: 40px;
+  }
+
+/*rewards page*/
+
+.reward{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.reward h1{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding: 2%;
+}
+.ca{
+    padding-left:90%;
+}
+
+.claimall{
+   padding-top:10px;
+   padding-bottom: 10px;
+   padding-right: 30px;
+   padding-left: 30px;
+   background-color:#f6bc58;
+   font-family:'Sofia Sans Extra Condensed', sans-serif;
+   font-size: 30px;
+   border: none;
+}
+
+.collect{
+    padding: 5%;
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+}
+
+.collect h2{
+    font-size: 40px;
+}
+
+.collect h3{
+    font-size: 30px;
+}
+
+.claim{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:#f6bc58;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    border: none;
+}
+
+/*profile*/
+
+.profile{
+    text-align: center;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    padding:5%
+    
+}
+
+.profile h1{
+    font-size: 80px;
+}
+
+.profile h2{
+    font-size: 45px;
+}
+
+.order{
+    display: flex;
+    font-family:'Barlow Condensed', sans-serif;
+    padding:3%;
+    font-size: 30px;
+    background-color:#f6bc58;
+}
+
+
+.tri1{
+    padding-top:25px;
+    padding-left: 80%;
+}
+
+.likes{
+    display: flex;
+    font-family:'Barlow Condensed', sans-serif;
+    padding:3%;
+    font-size: 30px;
+    background-color:#f6bc58;
+}
+
+.tri2{
+    padding-top:25px;
+    padding-left: 81.5%;
+}
+
+.share{
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    padding:5%;
+    background-color: #f6bc58;
+    font-size: 40px;
+    margin-top:5% ;
+    margin-bottom:5% ;
+}
+
+.share button{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:lightyellow;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    border: none;
+}
+
+.points{
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    padding:5%;
+    background-color: #f6bc58;
+    font-size: 40px;
+    margin-top:5% ;
+    margin-bottom:5% ;
+}
+
+.logout{
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    padding:5%;
+    background-color: #f6bc58;
+    border: none;
+    font-size: 40px;
+    margin-top:5% ;
+    margin-bottom:5% ;
+}
+
+.logout_button {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:lightyellow;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    border: none;
+}
+
+/* cart*/
+.cart_heading {
+    text-align: center;
+  }
+
+  #cart_produce {
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cart_photo {
+    height: 350px;
+    width: 350px;
+  }
+
+  #cart_info {
+    margin-left: 15%;
+  }
+
+/*quiz*/
+
+.quizquestions{
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 20px;   
+}
+
+.quizquestions h1 {
+    font-size: 100px;
+}
+
+.quizquestions h2{
+    font-size: 50px;
+}
+
+#container {
+    text-align: center;
+  }
+
+#form{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#start{
+    text-align: center;
+    padding:2%;
+    background-color: #f6bc58;
+    color: black;
+    font-size: 30px;
+    margin-top:5% ;
+    margin-bottom:5% ;
+    border: none;
+}
+
+.jumbotron{
+    background-color: #74c0ff;
+    border: none;
+    border-radius: 10;
+}
+
+
+.quizquestions input, select {
+      vertical-align:middle;
+  }
+  
+.button {
+      display: inline-block;
+      padding: 1em;
+      background-color:#f6bc58;
+      text-decoration: none !important; 
+      color: black!important;
+      border-radius: 10%;
+  } 
+
+#result{
+    font-size: 30px;
+}
+
+#pointsearn{
+    font-size: 30px;
+}
+  
+
+/*sign in page*/
+
+.container{
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    padding:5%;
+    font-size: 30px;
+}
+
+.container h1{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 60px;
+    padding: 2%;
+}
+
+.container button{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:#f6bc58;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    border: none;
+    border-radius: 10%;
+}
+
+/*resizing*/
+  @media screen and (max-width: 576px) {
+    .lego_product {
+        flex-direction: column;
+      }
+  }
+ 
