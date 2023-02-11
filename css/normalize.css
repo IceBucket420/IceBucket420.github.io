@@ -632,6 +632,11 @@ li a {
     border: none;
 }
 
+.jumbotron{
+    background-color: #74c0ff;
+    border: none;
+}
+
 
 .quizquestions input, select {
       vertical-align:middle;
