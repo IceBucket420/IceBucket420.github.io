@@ -40,7 +40,7 @@
         <section class="quiz">
             <h1> LEGO QUIZ</h1>
             <h2> Test your knowledge about LEGOS and earn some points!</h2>
-        <form>
+        <form onsubmit = "checkAns(event)" action = "">
             1. When was the first Lego brick produced?
             <br>
             <input type="radio" id="1950" name="first_lego" value="1950">
@@ -69,7 +69,7 @@
             <br>
             <input type="radio" id="2701958" name="patent" value="2701968">
             <label for="2701958">27th, January 1958</label><br>
-            <input type="radio" id="28011949" name="patent" value="18011949">
+            <input type="radio" id="28011949" name="patent" value="28011949">
             <label for="28011949">28th, January 1949</label><br>
             <input type="radio" id="30011957" name="patent" value="30011957">
             <label for="30011949">30th, January 1957</label><br>
@@ -99,11 +99,10 @@
             <input type="radio" id="pa" name="store" value="pa">
             <label for="pa">Perth, Australia</label><br>
             <br>
-            <input type="button" value="submit" onClick="">
+            <input type="button" value="submit" id="submitBtn">
             <input type="reset" value="Clear answers">
         </form>
-            
-        </section>
+        <div class="score" id="results"></div>
         <footer>
             <ul class="socials">
                 <li>
