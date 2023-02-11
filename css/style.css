@@ -1,0 +1,47 @@
+.socials {
+    display: flex;
+    justify-content: center;   
+}
+
+.socials li {
+    list-style: none;
+    padding: 40px;
+}
+
+.logo{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    padding: 2%;
+    justify-content: center;
+    background: color #f6bc58; ;
+}
+
+.bar{
+    font-size: 25px;
+    background-color:#f6bc58;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top:20px;
+}
+
+.minibar {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.bar li {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    display: inline;
+    padding: 50px;
+    list-style-type: none;
+}
+
+.minibar li {
+    display: inline;
+    padding-right: 10px;
+    list-style-type: none;
+}

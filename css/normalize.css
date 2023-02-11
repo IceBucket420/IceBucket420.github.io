@@ -635,6 +635,7 @@ li a {
 .jumbotron{
     background-color: #74c0ff;
     border: none;
+    border-radius: 10;
 }
 
 
