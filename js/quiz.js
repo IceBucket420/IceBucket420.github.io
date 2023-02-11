@@ -52,8 +52,6 @@ function checkAns() {
  };
 };
 
-
-
 $(document).ready(function() {
 
  $(".jumbotron").hide();
@@ -62,13 +60,7 @@ $(document).ready(function() {
    $(this).hide();
  });
 
- $(function() {
-   $("#progressbar").progressbar({
-     max: allQuestions.length - 1,
-     value: 0
-   });
- });
-
+ 
  setupOptions();
 
  $("#next").click(function() {
