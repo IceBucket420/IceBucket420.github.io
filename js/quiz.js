@@ -57,6 +57,7 @@ $(document).ready(function() {
  $(".jumbotron").hide();
  $('#start').click(function() {
    $(".jumbotron").fadeIn();
+   $(".think").hide();
    $(this).hide();
  });
 
