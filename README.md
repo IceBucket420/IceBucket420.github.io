@@ -51,6 +51,8 @@ In this section, I mention all of the languages, frameworks, libraries, and any 
 - visual studio code
 - google fonts
 - RestDB
+- JQuery
+- BootStrap
 
 
 ## Testing
@@ -71,4 +73,6 @@ In this section, I mention all of the languages, frameworks, libraries, and any 
   - Shopee website and app
   - Lego shop
   - W3Schools
+  - [Reference for Quiz](https://codereview.stackexchange.com/questions/122837/simple-javascript-quiz-application-with-radio-buttons)
+
 
