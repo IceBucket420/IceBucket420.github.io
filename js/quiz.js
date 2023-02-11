@@ -48,14 +48,11 @@ function setupOptions() {
 function checkAns() {
  if ($("input[name=option]:checked").val() == allQuestions[currentquestion].correctAnswer) {
    correctAnswers++;
+   pointsEarn += 5;
  };
 };
 
-function pointsCounter() {
-   if (correctAnswers> 0){
-      pointsEarn +5;
-   }
-}
+
 
 $(document).ready(function() {
 
@@ -90,7 +87,7 @@ $(document).ready(function() {
        $('#next').click(function() {
          $(".jumbotron").hide();
          $("#result").html("You correctly answered " + correctAnswers + " out of " + currentquestion + " questions! ").hide();
-         $("#pointsearn").html("You earned " + pointsEarn+" points!").hide();
+         $("#pointsearn").html("You earned " +pointsEarn+" points!").hide();
          $("#result").fadeIn(1500);
          $("#pointsearn").fadeIn(1500);
        });
