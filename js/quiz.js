@@ -92,7 +92,7 @@ $(document).ready(function() {
          $("#result").html("You correctly answered " + correctAnswers + " out of " + currentquestion + " questions! ").hide();
          $("#pointsearn").html("You earned " + pointsEarn+" points!").hide();
          $("#result").fadeIn(1500);
-         $("#rpointsearn").fadeIn(1500);
+         $("#pointsearn").fadeIn(1500);
        });
 
      };
