@@ -45,7 +45,6 @@ In this section, I mention all of the languages, frameworks, libraries, and any 
 - HTML
 - CSS
 - Javascript
-- JQuery
  ### Tools used:
 - Adobe XD
 - visual studio code
