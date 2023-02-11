@@ -595,12 +595,12 @@ li a {
 
 /*quiz*/
 
-.quiz{
-    display: flex;
-    flex-direction: column;
+.quizquestions{
+    text-align: center;
+    padding: 0%;
 }
 
-.quiz h1 h2{
+.quizquestions h1 h2{
     text-align: center;
 }
 
@@ -619,9 +619,7 @@ li a {
       text-decoration: none !important; 
       color: white !important;
   } 
-  body{
-    text-align: center;
-  }
+  
   
   .progress-bar {
     float: left;
