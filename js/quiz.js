@@ -1,27 +1,93 @@
+var allQuestions = [{
+   question: "When was the first Lego brick produced?",
+   choices: ["1950", "1949", "1948","1947"],
+   correctAnswer: 1
+ },
 
+ {
+   question: "Does What is the Lego Group's motto?",
+   choices: ["The Toys That Are New Every Day", "Make Your World Possible", "Only The Best Is Good Enough","The Toys You Grow Up With"],
+   correctAnswer: 2
+ },
 
+ {
+   question: "When was the patent filed for the Lego brick design?",
+   choices: ["27th, January 1958", "28th, January 1949", "30th, January 1957", "28th, January 1958"],
+   correctAnswer: 3
+ },
 
-let btnSubmit = document.getElementById('submitBtn');
+ {
+   question: " When was the Lego website launched? ",
+   choices: ["1997", "1996", "1998", "1995"],
+   correctAnswer: 1
+ },
 
-var sum=0;
+ {
+   question: "Where was the first Lego store to be opened?",
+   choices: ["Sydney, Australia", "Billund, Denmark", "Melbourne, Australia","Perth, Australia"],
+   correctAnswer: 0
+ }
+];
 
-function checkAns(){
-    if(document.getElementByName('first_lego').value=='1949') 
-       sum++;
-    if(document.getElementByName('motto').value=='otbige') 
-       sum++;
-    if(document.getElementByName('pantent').value=='28011958') 
-       sum++;
-    if(document.getElementByName('web').value=='1996') 
-       sum++;
-    if(document.getElementByName('store').value=='sa') 
-       sum++;
+var currentquestion = 0;
+var correctAnswers = 0;
+
+function setupOptions() {
+ $('#question').html(parseInt(currentquestion) + 1 + ". " + allQuestions[currentquestion].question);
+ var options = allQuestions[currentquestion].choices;
+ var formHtml = '';
+ for (var i = 0; i < options.length; i++) {
+   formHtml += '<div><input type="radio" name="option" value="' + i + '" id="option' + i + '"><label for="option' + i + '">' +
+     allQuestions[currentquestion].choices[i] + '</label></div><br/>';
+ }
+ $('#form').html(formHtml);
+ $("#option0").prop('checked', true);
+};
+
+function checkAns() {
+ if ($("input[name=option]:checked").val() == allQuestions[currentquestion].correctAnswer) {
+   correctAnswers++;
+ };
+};
+
+$(document).ready(function() {
+
+ $(".jumbotron").hide();
+ $('#start').click(function() {
+   $(".jumbotron").fadeIn();
+   $(this).hide();
+ });
+
+ $(function() {
+   $("#progressbar").progressbar({
+     max: allQuestions.length - 1,
+     value: 0
+   });
+ });
+
+ setupOptions();
+
+ $("#next").click(function() {
+   event.preventDefault();
+   checkAns();
+   currentquestion++;
+   $(function() {
+     $("#progressbar").progressbar({
+       value: currentquestion
+     });
+   });
+   if (currentquestion < allQuestions.length) {
+     setupOptions();
+     if (currentquestion == allQuestions.length - 1) {
+       $('#next').html("Submit");
+       $('#next').click(function() {
+         $(".jumbotron").hide();
+         $("#result").html("You correctly answered " + correctAnswers + " out of " + currentquestion + " questions! ").hide();
+         $("#result").fadeIn(1500);
+       });
+
+     };
+
    };
-
-
-btnSubmit.addEventListener('click', function(e){
-
-  e.preventDefault();
-  document.getElementById('results').innerHTML = `Your score is ${sum}`;
- 
+ });
 });

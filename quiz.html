@@ -2,8 +2,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="/css/normalize.css" type="text/css">
-        <title>LEGOHOLIC-LEGO® Ideas - Fender Stratocaster</title>
+        <title>LEGOHOLIC-QUIZ</title>
     </head>
 
     <body>
@@ -40,69 +42,23 @@
         <section class="quiz">
             <h1> LEGO QUIZ</h1>
             <h2> Test your knowledge about LEGOS and earn some points!</h2>
-        <form onsubmit = "checkAns(event)" action = "">
-            1. When was the first Lego brick produced?
-            <br>
-            <input type="radio" id="1950" name="first_lego" value="1950">
-            <label for="1950">1950</label><br>
-            <input type="radio" id="1949" name="frist_lego" value="1949">
-            <label for="1949">1949</label><br>
-            <input type="radio" id="1948" name="first_lego" value="1948">
-            <label for="1948">1948</label><br>
-            <input type="radio" id="1947" name="first_lego" value="1947">
-            <label for="1947">1947</label><br>
-            <br>
-            
-            2. What is the LEGO group motto?
-            <br>
-            <input type="radio" id="tttaned" name="motto" value="tttaned">
-            <label for="tttaned">The Toys That Are New Every Day</label><br>
-            <input type="radio" id="mywp" name="motto" value="mywp">
-            <label for="mywp">Make Your World Possible</label><br>
-            <input type="radio" id="otbige" name="motto" value="otbige">
-            <label for="otbige">Only The Best Is Good Enough</label><br>
-            <input type="radio" id="ttyge" name="motto" value="ttyguw">
-            <label for="ttyguw">The Toys You Grow Up With</label><br>
-            <br>
+<h1>Quiz</h1>
+<br/>
+<br/>
+<a href="#" id="start" class="btn btn-primary btn-lg">Let's Begin</a>
+<br/>
+<div class="well jumbotron">
+  <h3 id="question"></h3>
+  <br/><br/>
+  <form id="form">
 
-            3. When was the patent filed for the Lego brick design?
-            <br>
-            <input type="radio" id="2701958" name="patent" value="2701968">
-            <label for="2701958">27th, January 1958</label><br>
-            <input type="radio" id="28011949" name="patent" value="28011949">
-            <label for="28011949">28th, January 1949</label><br>
-            <input type="radio" id="30011957" name="patent" value="30011957">
-            <label for="30011949">30th, January 1957</label><br>
-            <input type="radio" id="28011958" name="patent" value="28011958">
-            <label for="28011958">28th, January 1958</label><br>
-            <br>
-
-            4.When was the Lego website launched?
-            <br>
-            <input type="radio" id="1997" name="web" value="1997">
-            <label for="1997">1997</label><br>
-            <input type="radio" id="1996" name="web" value="1996">
-            <label for="1996">1996</label><br>
-            <input type="radio" id="1998" name="web" value="1998">
-            <label for="1998">1998</label><br>
-            <input type="radio" id="1995" name="web" value="1995">
-            <label for="1995">1995</label><br>
-            <br>
-            5. Where was the first Lego store to be opened?
-            <br>
-            <input type="radio" id="sa" name="store" value="sa">
-            <label for="sa">Sydney, Australia</label><br>
-            <input type="radio" id="bd" name="store" value="bd">
-            <label for="bd">Billund, Denmark</label><br>
-            <input type="radio" id="ma" name="store" value="ma">
-            <label for="ma">Melbourne, Australia</label><br>
-            <input type="radio" id="pa" name="store" value="pa">
-            <label for="pa">Perth, Australia</label><br>
-            <br>
-            <input type="button" value="submit" id="submitBtn">
-            <input type="reset" value="Clear answers">
-        </form>
-        <div class="score" id="results"></div>
+  </form>
+  <br/>
+  <a href="#" id="next" class="button">Next</a><br/>
+  <div id="progressbar" class="progress-bar progress-bar-striped"></div>
+</div>
+<div id="result"></div>
+        </section>
         <footer>
             <ul class="socials">
                 <li>
@@ -122,6 +78,8 @@
                 <a href="https://www.lego.com/en-sg">Want to know more about Legos? Find out more at their offical shop!</a>
             </p>            
         </footer>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
         <script src="js/quiz.js"></script>
     </body>
     
