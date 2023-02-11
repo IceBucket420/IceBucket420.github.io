@@ -597,7 +597,7 @@ li a {
 
 .quizquestions{
     text-align: center;
-    padding: 0%;
+    padding: 10%;
 }
 
 .quizquestions h1 h2{
@@ -608,11 +608,11 @@ li a {
     text-align: center;
   }
   
-  input, select {
+.quizquestions input, select {
       vertical-align:middle;
   }
   
-  .button {
+.button {
       display: inline-block;
       padding: 1em;
       background-color: #79BD9A;
@@ -620,7 +620,7 @@ li a {
       color: white !important;
   } 
   
-  
+
   .progress-bar {
     float: left;
     width: 0;
@@ -636,6 +636,7 @@ li a {
          -o-transition: width .6s ease;
             transition: width .6s ease;
   }
+
 /*sign in page*/
 
 .container{
