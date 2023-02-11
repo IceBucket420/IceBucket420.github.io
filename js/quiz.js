@@ -33,6 +33,7 @@ var currentquestion = 0;
 var correctAnswers = 0;
 var pointsEarn= 0;
 
+
 function setupOptions() {
  $('#question').html(parseInt(currentquestion) + 1 + ". " + allQuestions[currentquestion].question);
  var options = allQuestions[currentquestion].choices;
@@ -53,9 +54,9 @@ function checkAns() {
 };
 
 $(document).ready(function() {
-
- $(".jumbotron").hide();
- $('#start').click(function() {
+$("#smart").hide();
+$(".jumbotron").hide();
+$('#start').click(function() {
    $(".jumbotron").fadeIn();
    $(".think").hide();
    $(this).hide();
@@ -81,6 +82,7 @@ $(document).ready(function() {
          $(".jumbotron").hide();
          $("#result").html("You correctly answered " + correctAnswers + " out of " + currentquestion + " questions! ").hide();
          $("#pointsearn").html("You earned " +pointsEarn+" points!").hide();
+         $("#smart").fadeIn(1500);
          $("#result").fadeIn(1500);
          $("#pointsearn").fadeIn(1500);
        });
