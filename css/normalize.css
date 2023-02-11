@@ -610,6 +610,11 @@ li a {
 #container {
     text-align: center;
   }
+
+#form{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
   
 .quizquestions input, select {
       vertical-align:middle;
