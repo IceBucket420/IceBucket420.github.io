@@ -15,6 +15,7 @@ Users stories:
 - As a customer, I want to buy the lego sets, so that I can build Legos
 - As a lego fanatic, I want to learn more about Legos and share my interest with other people, so that I can grow my interest in Legos.
 - As a regular customer, I would want an easy way to access the legos I'm interested in, so that I can get more Legos.
+- As a customer, I would like to keep track of my orders, so I would know the progress of my order.
 
 ## Features
 
