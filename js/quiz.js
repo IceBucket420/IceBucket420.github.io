@@ -5,7 +5,7 @@ var allQuestions = [{
  },
 
  {
-   question: "Does What is the Lego Group's motto?",
+   question: "What is the Lego Group's motto?",
    choices: ["The Toys That Are New Every Day", "Make Your World Possible", "Only The Best Is Good Enough","The Toys You Grow Up With"],
    correctAnswer: 2
  },
