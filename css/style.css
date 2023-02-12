@@ -697,7 +697,16 @@
 
 /*signout page*/
 
+.form-group h3{
+    padding-top:5%;
+}
 
+#user-signup{
+    padding:2%;
+    background-color:#f6bc58;
+    color: black;
+    border:none;
+}
 
 
 /*resizing*/
