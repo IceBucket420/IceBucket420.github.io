@@ -661,7 +661,7 @@
 .container{
     text-align: center;
     font-family:'Barlow Condensed', sans-serif;
-    padding:5%;
+    padding:7%;
     font-size: 30px;
 }
 
@@ -669,6 +669,10 @@
     font-family:'Sofia Sans Extra Condensed', sans-serif;
     font-size: 60px;
     padding: 2%;
+}
+
+.container h3{
+    padding-bottom: 2%;
 }
 
 .container button{
@@ -681,6 +685,14 @@
     font-size: 30px;
     border: none;
     border-radius: 10%;
+}
+
+#check-user{
+    padding:2%;
+    background-color:#f6bc58;
+    color: black;
+    border:none;
+    
 }
 
 /*resizing*/
