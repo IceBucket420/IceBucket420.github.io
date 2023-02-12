@@ -478,6 +478,19 @@
 
 .profile h2{
     font-size: 45px;
+    padding-bottom: 2%;
+}
+
+.profile button{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:lightyellow;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    border: none;
+    border-radius: 10%;
 }
 
 .order{
