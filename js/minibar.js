@@ -7,7 +7,7 @@ $(document).ready(function(){
     }
     else {
         $("#carticon").show();
-        $("profileicon").show();
-        $("signinicon").hide();
+        $("#profileicon").show();
+        $("#signinicon").hide();
     }
     });
