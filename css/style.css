@@ -47,6 +47,18 @@
     list-style-type: none;
 }
 
+#carticon img{
+    width: 50px;
+}
+
+#profileicon img{
+    width: 75px;
+}
+
+#signinicon img{
+    width: 60px;
+}
+
 /*Home page*/
 
 .featured h1{
@@ -724,8 +736,35 @@
 
 /*resizing*/
   @media screen and (max-width: 576px) {
+    
+    .socials li {
+        padding: 30px;
+    }
+    
+    .minibar {
+        padding-right: 5px;
+    }
+    
+    .bar li {
+        padding: 20px;
+    }
+    
+    .minibar li {
+        width:10px;
+        height: 10px;
+        padding-right: 10px;
+    }
+
     .lego_product {
         flex-direction: column;
       }
+
+    footer p {
+        padding:5%
+    }
+
+    
+
+
   }
  
