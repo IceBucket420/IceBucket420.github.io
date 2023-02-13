@@ -463,7 +463,7 @@
     padding: 2%;
 }
 .ca{
-    padding-left:90%;
+    padding-left:80%;
 }
 
 .claimall{
@@ -936,6 +936,38 @@
         height:800px;
         width: 800px;
       }
+    
+    /*reward*/
+    .reward h1{
+        font-size: 50px;
+    }
+    
+    .collect h2{
+        font-size: 40px;
+    }
+    
+    .collect h3{
+        font-size: 30px;
+    }
+
+    .claimall{
+        padding-top:5px;
+        padding-bottom: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 15px;
+        border: none;
+    }
+    
+    .claim{
+        padding-top:5px;
+        padding-bottom: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 15px;
+        border: none;
+    }
+
 
   }
  
