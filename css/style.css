@@ -119,7 +119,7 @@
 
 .quiztext h2{
     font-family:'Sofia Sans Extra Condensed', sans-serif;
-    font-size: 100px;
+    font-size: 90px;
 }
 
 .quiztext p{
@@ -815,34 +815,31 @@
     
     .games h1{
         font-size: 50px;
-        padding: 5%;
     }
     
     
     .quiztext {
         flex-direction: column;
-        padding-left:15%;
+        text-align: center;
     }
     
     .quiztext h2{
-        font-family:'Sofia Sans Extra Condensed', sans-serif;
-        font-size: 100px;
+        font-size: 40px;
     }
     
     .quiztext p{
-        font-family:'Barlow Condensed', sans-serif;
-        font-size: 50px;
+        font-size: 25px;
         padding-left: 30px;
     }
     
     
     .quiztext button{
         font-family:'Sofia Sans Extra Condensed', sans-serif;
-        font-size: 50px;
+        font-size: 25px;
         background-color:#f6bc58;
         color:black;
-        width:150px;
-        height: 70px;
+        width:75px;
+        height: 35px;
         border: none;
         border-radius: 5px;
     }
@@ -862,9 +859,7 @@
     }
     
     .dchara{
-        display: flex;
-        justify-content: center;
-        padding: 5%;
+        flex-direction: column;
     
     }
     
