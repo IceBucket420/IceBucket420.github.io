@@ -192,19 +192,20 @@
     text-decoration: none;
 }
 
-
 /*contact page*/
 
-.location h1{
+.location {
     font-family:'Sofia Sans Extra Condensed', sans-serif;
-    font-size: 80px;
     text-align: center;
 }
 
-.location iframe{
-    padding:5%;
-    position:relative;
-    overflow: hidden;
+.location h1{
+    font-size: 80px;
+}
+
+#map iframe{
+    width:1000px;
+    height: 500px;
 }
 
 .location p {
@@ -350,10 +351,24 @@
 
 }
 
-.product_detail iframe{
+.product_vid{
+    padding-top:5%;
     position:relative;
     overflow: hidden;
-    padding: 3%;
+}
+
+.product_vid::after{
+    display:block;
+    content:"";
+    padding-top: 56.25%;
+}
+
+.product_vid iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
 
 }
 
@@ -372,11 +387,6 @@
     
 }
 
-.sketchfab-embed-wrapper iframe{
-    position:relative;
-    overflow: hidden;
-    padding: 3%;
-}
 
 .counter {
     width: 150px;
@@ -792,6 +802,10 @@
     .lego_product {
         flex-direction: column;
       }
+
+    .product_heading{
+        font-size: 50px;
+    }
     
     /*home*/
 
@@ -857,8 +871,71 @@
         width:200px;
     }
 
-    
+    /*contact page*/
 
+    .location h1{
+        font-size: 40px;
+    }
+
+
+    .location p {
+        font-size: 25px;
+    }
+
+    .inquery{
+        font-size: 20px;
+    }
+
+    .inquery h1{
+        padding:3%;
+    }
+
+    .inquery textarea{
+        width:450px;
+    }
+
+    #map iframe{
+        width:470px;
+    }
+
+    #submitBtn{
+        font-size: 25px;
+        width:75px;
+        height: 35px;
+    }
+
+    .thanks{
+        font-size: 25px;
+    }
+
+    /* product details*/
+    
+    .sketchfab-embed-wrapper iframe{
+        width: 400px;
+
+    }
+    
+    .product_detail img{
+        width:450px;
+        height: 500px;
+
+    }
+
+    .desc {
+        padding:3%;
+        font-size: 20px;
+        background-color:#f6bc58;
+      }
+    
+    .desc h4{
+        font-size: 30px;
+    }
+    
+    
+    .detail_photo {
+        height:800px;
+        width: 800px;
+      }
 
   }
  
