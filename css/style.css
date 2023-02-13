@@ -92,9 +92,15 @@
 
 .featured h3{
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     padding:5%;
     text-align: center;
+}
+
+.featured p{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 20px;
+
 }
 
 
@@ -102,7 +108,7 @@
     font-family:'Sofia Sans Extra Condensed', sans-serif;
     font-size: 100px;
     text-align: center;
-    padding: 2%;
+    padding: 5%;
 }
 
 
@@ -796,17 +802,20 @@
     
     
     .featured h3{
-        font-family: 'Barlow Condensed', sans-serif;
-        font-size: 20px;
-        padding:5%;
+        font-size: 15px;
+        padding:2%;
+    }
+
+    .featured p{
+        font-family:'Barlow Condensed', sans-serif;
+        font-size: 10px;
+
     }
     
     
     .games h1{
-        font-family:'Sofia Sans Extra Condensed', sans-serif;
-        font-size: 100px;
-        text-align: center;
-        padding: 2%;
+        font-size: 50px;
+        padding: 5%;
     }
     
     
