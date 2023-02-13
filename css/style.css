@@ -30,6 +30,7 @@
 .minibar {
     display: flex;
     justify-content: flex-end;
+    padding-top:20px;
     padding-right: 50px;
 }
 
@@ -68,19 +69,19 @@
     padding: 2%;
 }
 
-.featured{
+.item{
     padding-top:5%;
     position:relative;
     overflow: hidden;
 }
 
-.featured::after{
+.item::after{
     display:block;
     content:"";
     padding-top: 56.25%;
 }
 
-.featured iframe{
+.item iframe{
     position: absolute;
     top:0;
     left:0;
@@ -765,9 +766,8 @@
     }
     
     .minibar li {
-        width:10px;
-        height: 10px;
         padding-right: 10px;
+        padding-top:5px;
     }
 
     .lego_product {
@@ -778,8 +778,6 @@
         padding:5%
     }
 
-    
-
     .featured h1{
         font-family:'Sofia Sans Extra Condensed', sans-serif;
         font-size: 100px;
@@ -787,17 +785,11 @@
         padding: 2%;
     }
     
-    .featured iframe{
-        padding-top:5%;
-        position:relative;
-        overflow: hidden;
-    }
     
     .featured h3{
         font-family: 'Barlow Condensed', sans-serif;
         font-size: 20px;
         padding:5%;
-        text-align: center;
     }
     
     
