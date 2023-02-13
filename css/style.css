@@ -968,6 +968,17 @@
         border: none;
     }
 
+    /*profile page*/
+    .tri1{
+
+        padding-left: 70%;
+    }
+    
+    .tri2{
+        padding-top:25px;
+        padding-left: 72.5%;
+    }
+
 
   }
  
