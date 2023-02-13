@@ -782,12 +782,20 @@
         width: 40px;
     }
 
+    footer p {
+        padding:5%
+    }
+
+    /*product*/
+
     .lego_product {
         flex-direction: column;
       }
+    
+    /*home*/
 
-    footer p {
-        padding:5%
+    .game{
+        padding:10%;
     }
 
     .featured h1{
@@ -802,97 +810,50 @@
     }
 
     .featured p{
-        font-family:'Barlow Condensed', sans-serif;
         font-size: 10px;
 
     }
-    
-    
     .games h1{
         font-size: 50px;
     }
     
     
-    .quiztext {
-        flex-direction: column;
-        text-align: center;
-    }
-    
     .quiztext h2{
-        font-size: 40px;
+        font-size: 45px;
     }
     
     .quiztext p{
         font-size: 25px;
-        padding-left: 30px;
     }
     
     
     .quiztext button{
-        font-family:'Sofia Sans Extra Condensed', sans-serif;
         font-size: 25px;
-        background-color:#f6bc58;
-        color:black;
         width:75px;
         height: 35px;
-        border: none;
-        border-radius: 5px;
     }
     
-    .quizbutton{
-        padding-left: 50px;
+    .quizimg img{
+        width: 200px;
     }
     
-    
-    .quiztext a{
-        color: black;
-        text-decoration: none;
-    }
-    
-    .quizimg{
-        padding-left: 15%;
-    }
-    
-    .dchara{
-        flex-direction: column;
-    
-    }
     
     .dcharatext {
-        flex-direction: column;
-        padding-left:15%;
+        padding:2%;
     }
     
     .dcharatext h2{
-        font-family:'Sofia Sans Extra Condensed', sans-serif;
-        font-size: 100px;
+        font-size: 45px;
     }
-    
-    
     
     .dcharatext button{
-        font-family:'Sofia Sans Extra Condensed', sans-serif;
-        font-size: 50px;
-        background-color:#f6bc58;
-        color:black;
-        width:150px;
-        height: 70px;
-        border: none;
-        border-radius: 5px;
+        font-size: 25px;
+        width:75px;
+        height: 35px;
     }
-    
-    .dcharabutton{
-        padding-left: 200px;
-    }
-    
-    
-    .dcharatext a{
-        color: black;
-        text-decoration: none;
-    }
-    
-    .dcharaimg{
-        padding-left: 10%;
+
+    .dcharaimg img{
+        width:200px;
     }
 
     
