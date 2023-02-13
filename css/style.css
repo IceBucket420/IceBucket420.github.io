@@ -6,7 +6,7 @@
 
 .socials li {
     list-style: none;
-    padding: 40px;
+    padding:10%;
 }
 
 .logo{
@@ -755,7 +755,7 @@
   @media screen and (max-width: 576px) {
     
     .socials li {
-        padding: 30px;
+        padding:10%;
     }
     
     .minibar {
@@ -783,6 +783,7 @@
     }
 
     footer p {
+        font-size: 20px;
         padding:5%
     }
 
