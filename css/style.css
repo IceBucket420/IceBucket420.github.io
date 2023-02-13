@@ -769,6 +769,17 @@
         padding-right: 10px;
         padding-top:5px;
     }
+    #carticon img{
+        width: 30px;
+    }
+    
+    #profileicon img{
+        width: 55px;
+    }
+    
+    #signinicon img{
+        width: 40px;
+    }
 
     .lego_product {
         flex-direction: column;
@@ -779,9 +790,7 @@
     }
 
     .featured h1{
-        font-family:'Sofia Sans Extra Condensed', sans-serif;
-        font-size: 100px;
-        text-align: center;
+        font-size: 50px;
         padding: 2%;
     }
     
