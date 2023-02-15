@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+        <title>Check Out</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/legoholic logo-06.png" width="100">
+            </div>
+            <nav class="bar">
+                <ul>  
+                    <li> 
+                    <a href="index.html"> Home </a>  
+                    </li>  
+                    <li>  
+                    <a href="product.html">Products </a>  
+                    </li>  
+                    <li>  
+                    <a href="contact.html">Contact</a>  
+                    </li>  
+                    <li> <a href="reward.html">Reward</a>  
+                    </li>  
+                </ul>
+            </nav>
+            <div class="minibar">
+                <ul>
+                    <li>
+                        <a href="cart.html"><img src="images/bag.png" width="80"></a>
+                    </li>
+                    <li>
+                        <a href="profile.html"><img src="images/profile.png" width="80"></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section class="address">
+            <h3>Delivery Address:</h3>
+            <p id="address">Woodlands</p>
+        </section>
+        <section class="order_sum">
+            <h3>Order Summary</h3>
+            <div id="order_sum">
+                <label>Item:</label>
+                <p id="item_price"></p>
+                <br>
+                <label>Delivery:</label>
+                <p id="delivery_price">4.50</p>
+                <br>
+                <label>Total:</label>
+                <p id="total"></p>
+            </div>
+        </section>
+        <section class="redeem">
+            <label>Redeem Points</label>
+            <p id="points"></p>
+        </section>
+        <section class="promo_code">
+            <label>Promotional Code</label>
+        </section>
+        <section class="payment_method">
+            <label>SELECT PAYMENT METHOD</label>
+            <br>
+            <input type="checkbox" id="payment1" name="payment1" value="Credit Card">
+            <label for="payment1">Credit Card</label><br>
+            <br>
+            <input type="checkbox" id="payment2" name="payment2" value="Paypal">
+            <label for="payment2">Paypal</label><br>
+            <br>
+            <input type="checkbox" id="payment3" name="payment3" value="PayNow">
+            <label for="payment3">PayNow</label><br>
+        </section>
+        <a class= "order_button" href="order.html">Place Order</a>
+        <footer>
+            <ul class="socials">
+                <li>
+                    <a href="https://www.instagram.com/lego/"><img src="images/instalogo.png" width="40px" height="40px"></a>
+                </li> 
+                <li> 
+                    <a href="https://www.youtube.com/user/LEGO"><img src="images/yt.png" width="40px" height="40px"></a>
+                </li>  
+                <li>
+                    <a href="https://twitter.com/LEGO_Group"><img src="images/twitter.png" width="40px" height="40px"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/LEGO/"><img src="images/facebook.png" width="40px" height="40px"></a>
+                </li>
+            </ul> 
+            <p>
+                <a href="https://www.lego.com/en-sg">Want to know more about Legos? Find out more at their offical shop!</a>
+            </p>            
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+
+        
+        <script>
+
+            $(document).ready(function() {
+            var total = localStorage.getItem("total_price");
+            var points = localStorage.getItem("points");
+
+            console.log(total);
+
+            $("#item_price").html(total);
+
+            var new_total = parseFloat(total) + parseFloat($("#delivery_price").text())
+
+            $("#total").html(new_total);
+            $("#points").html(points);
+
+        })
+        </script>
+    </body>
+</html>
