@@ -615,25 +615,19 @@
 #logout_msg{
     padding: 3%;
 }
-/* cart*/
-.cart_heading {
-    text-align: center;
-  }
 
-  #cart_produce {
-    margin-left: 20%;
-    display: flex;
-    flex-direction: row;
-  }
+.address_button {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:lightyellow;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    border: none;
+    margin-bottom: 50px;
+}
 
-  .cart_photo {
-    height: 350px;
-    width: 350px;
-  }
-
-  #cart_info {
-    margin-left: 15%;
-  }
 
 /*quiz*/
 
@@ -760,6 +754,138 @@
     border:none;
 }
 
+/*checkout*/
+
+.address {
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 40px;
+}
+
+.order_sum {
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 40px;
+}
+
+#order_sum {
+    background-color: lightyellow;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 50px;
+}
+
+
+.redeem {
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    background-color: lightyellow;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 50px;
+}
+
+.promo_code {
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    background-color: lightyellow;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 50px;
+}
+
+.payment_method {
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.order_button {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-left: 47%;
+  }
+
+  /*cart*/
+
+table, th, td {
+    padding-right: 150px;
+    padding-bottom: 50px;
+  }
+
+  .cart_heading {
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 100px;
+  }
+
+#cart-list {
+    margin-left: 250px;
+    margin-bottom: 50px;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+}
+
+#update-heading {
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#update-cart {
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.checkout_button {
+    text-decoration: none;
+    color: black;
+    border: 2px;
+    background-color:#f6bc58;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    font-size: 30px;
+    margin-left: 45%;
+
+  }
+
+.updatecart_button {
+    border: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    background-color:#f6bc58;
+    font-size: 25px;
+}
+
+  /*order*/
+
+  .order_made {
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 40px;
+  }
+
+  .points_earned {
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 40px;
+  }
 
 /*resizing*/
   @media screen and (max-width: 576px) {
