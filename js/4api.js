@@ -1,4 +1,3 @@
-//[STEP 0]: Make sure our document is A-OK
 $(document).ready(function() {
 
   //what kind of interface we want at the start 
@@ -16,15 +15,21 @@ $(document).ready(function() {
     let userName = $("#user-name").val();
     let userEmail = $("#user-email").val();
     let userPassword = $("#user-password").val();
+    let userAddress = $("#user-address").val();
+    let userPoints = 100;
 
     console.log(userName);
     console.log(userEmail);
     console.log(userPassword);
+    console.log(userAddress);
+    console.log(userPoints);
 
     let jsondata = {
       "email": userEmail,
       "password": userPassword,
-      "username": userName
+      "username": userName,
+      "address": userAddress,
+      "points": userPoints
     };
 
     let settings = {
@@ -105,6 +110,9 @@ $(document).ready(function() {
           localStorage.setItem("username", userName);
           localStorage.setItem("password", userPassword);
           localStorage.setItem("email", response[i].email);
+          localStorage.setItem("address", response[i].address);
+          localStorage.setItem("points", response[i].points);
+          localStorage.setItem("id", response[i]._id );
 
           getCart(userPassword);
 
@@ -188,6 +196,142 @@ $(document).ready(function() {
     });
   });//end click 
 
+  //reward points
+
+  $("#claimall").on("click", function(e) {
+    e.preventDefault();
+
+    var id = localStorage.getItem("id");
+    let username = localStorage.getItem("username");
+    let password = localStorage.getItem("password");
+    let email = localStorage.getItem("email");
+    let address = localStorage.getItem("address");
+    var points = localStorage.getItem("points");
+
+    /*console.log(id);
+    console.log(username);
+    console.log(password);
+    console.log(email);
+    console.log(address);*/
+
+    combine_points = parseInt($("#reward_1").text()) + parseInt($("#reward_2").text()) + parseInt($("#reward_3").text()) + parseInt($("#reward_4").text())
+
+    let new_points = parseInt(points) + parseInt(combine_points)
+    console.log(new_points)
+    localStorage.setItem("points", new_points);
+
+    updatePoints(id, username, password, email, address, new_points);
+
+  });
+  $("#claim_1").on("click", function(e) {
+    e.preventDefault();
+
+    var id = localStorage.getItem("id");
+    let username = localStorage.getItem("username");
+    let password = localStorage.getItem("password");
+    let email = localStorage.getItem("email");
+    let address = localStorage.getItem("address");
+    var points = localStorage.getItem("points");
+
+    /*console.log(id);
+    console.log(username);
+    console.log(password);
+    console.log(email);
+    console.log(address);*/
+
+    let new_points = parseInt(points) + parseInt($("#reward_1").text())
+    console.log(new_points)
+    localStorage.setItem("points", new_points);
+
+    updatePoints(id, username, password, email, address, new_points);
+
+  });
+
+  $("#claim_2").on("click", function(e) {
+    e.preventDefault();
+
+    var id = localStorage.getItem("id");
+    let username = localStorage.getItem("username");
+    let password = localStorage.getItem("password");
+    let email = localStorage.getItem("email");
+    let address = localStorage.getItem("address");
+    var points = localStorage.getItem("points");
+
+    let new_points = parseInt(points) + parseInt($("#reward_2").text())
+    console.log(new_points)
+    localStorage.setItem("points", new_points);
+
+    updatePoints(id, username, password, email, address, new_points);
+
+  });
+
+  $("#claim_3").on("click", function(e) {
+    e.preventDefault();
+
+    var id = localStorage.getItem("id");
+    let username = localStorage.getItem("username");
+    let password = localStorage.getItem("password");
+    let email = localStorage.getItem("email");
+    let address = localStorage.getItem("address");
+    var points = localStorage.getItem("points");
+
+    let new_points = parseInt(points) + parseInt($("#reward_3").text())
+    console.log(new_points)
+    localStorage.setItem("points", new_points);
+
+    updatePoints(id, username, password, email, address, new_points);
+
+  });
+
+  $("#claim_4").on("click", function(e) {
+    e.preventDefault();
+
+    var id = localStorage.getItem("id");
+    let username = localStorage.getItem("username");
+    let password = localStorage.getItem("password");
+    let email = localStorage.getItem("email");
+    let address = localStorage.getItem("address");
+    var points = localStorage.getItem("points");
+
+    let new_points = parseInt(points) + parseInt($("#reward_4").text())
+    console.log(new_points)
+    localStorage.setItem("points", new_points);
+
+    updatePoints(id, username, password, email, address, new_points);
+
+  });
+
+  function updatePoints(id, username, password, email, address, new_points) {
+
+    console.log(new_points);
+
+    var jsondata = {
+      "email": email,
+      "password": password,
+      "username": username,
+      "address": address,
+      "points": new_points
+    }
+
+    var settings = {
+      "async": true,
+      "crossDomain": true,
+      "url": `https://legoholic-fb03.restdb.io/rest/sign-in/${id}`,
+      "method": "PUT",
+      "headers": {
+        "content-type": "application/json",
+        "x-apikey": APIKEY,
+        "cache-control": "no-cache"
+      },
+      "processData": false,
+      "data": JSON.stringify(jsondata)
+    }
+
+    $.ajax(settings).done(function(response) {
+      console.log(response);
+    });
+
+  }
 
   //[STEP] 6
   //let's create a function to allow you to retrieve all the information in your contacts
@@ -201,18 +345,16 @@ $(document).ready(function() {
     var email = localStorage.getItem("email");
 
     console.log(username);
-    console.log(password)
-    console.log(email)
+    console.log(password);
+    console.log(email);
 
     $("#show-username").html(username)
     $("#show-password").html(password)
     $("#show-username").html(username)
 
+    //$("#product-image").attr('src', 'images/hpdragon.jpg')
+
     let userPassword = password;
-    //console.log($("#show-password").text())
-
-    //let userPassword = $("#show-password").text();
-
     let settings = {
       "async": true,
       "crossDomain": true,
@@ -229,20 +371,23 @@ $(document).ready(function() {
 
       let content = "";
 
-      let form = "";
-
       for (var i = 0; i < response.length && i < limit; i++) {
 
         if (response[i].password == userPassword) {
-          console.log(response)
 
-          console.log(response[i].name)
-          console.log(response[i].price)
-          console.log(response[i].quantity)
+          content = `${content}<tr><tr><td rowspan="3"><img class="cart_image" src="${response[i].image}"></td><td id="cart-name">${response[i].name}</td><td><a href='#' class='delete' data-id='${response[i]._id}'>Del</a></td></tr><tr><td>${response[i].price}</td><td><a href='#update-cart-container' class='update' data-id='${response[i]._id}' data-name='${response[i].name}'>Update</a></td></tr><tr><td id="cart-quantity">${response[i].quantity}</td></tr></tr>`
 
-          content = `${content}<tr id='${response[i]._id}'><td>${response[i].password}</td><td>${response[i].name}
-        </td><td>${response[i].price}</td><td>${response[i].quantity}</td><td>${response[i].image}</td><td><a href='#' class='delete' data-id='${response[i]._id}'>Del</a></td><td><a href='#update-cart-container' class='update' data-id='${response[i]._id}' data-name='${response[i].name}'>Update</a></td></tr>`;
+          var item_price = 0;
+
+          for (var a = 0; a < response.length;) {
+            item_price = item_price + response[a].price
+            a += 1;
+            //console.log(total_price)
+
+            localStorage.setItem("total_price", item_price)
+          }
         }
+
         else {
           console.log("No")
         }
@@ -262,27 +407,98 @@ $(document).ready(function() {
 
   }
 
-  //[STEP 10]: Create our update listener
-  //here we tap onto our previous table when we click on update
-  //this is a delegation feature of jquery
-  //because our content is dynamic in nature, we listen in on the main container which is "#contact-list". For each row we have a class .update to help us
   $("#cart-list").on("click", ".update", function(e) {
+    e.preventDefault();
+
+    let productId = $(this).data("id");
+
+    console.log(productId)
+    $("#update-cart-container").show();
+
+    let settings = {
+      "async": true,
+      "crossDomain": true,
+      "url": "https://legoholic-fb03.restdb.io/rest/cart",
+      "method": "GET", //[cher] we will use GET to retrieve info
+      "headers": {
+        "content-type": "application/json",
+        "x-apikey": APIKEY,
+        "cache-control": "no-cache"
+      },
+    }
+    $.ajax(settings).done(function(response) {
+      console.log(response)
+
+      for (var i = 0; i < response.length; i++) {
+        if (response[i]._id == productId) {
+          console.log(response[i]._id);
+          console.log(response[i].password);
+          console.log(response[i].name);
+          console.log(response[i].price);
+          console.log(response[i].quantity);
+          console.log(response[i].image);
+
+
+          ori_price = parseInt(response[i].price) / parseInt(response[i].quantity)
+
+          console.log(ori_price)
+
+          localStorage.setItem("product_id", response[i]._id)
+          localStorage.setItem("product_name", response[i].name);
+          localStorage.setItem("product_price", ori_price);
+          localStorage.setItem("product_image", response[i].image);
+        }
+      }
+
+    });
+    
+
+  });
+
+  $("#update-cart-submit").on("click", function(e) {
+
+    e.preventDefault();
+    let productId = localStorage.getItem("product_id");
+    let productPassword = localStorage.getItem("password");
+    let productName = localStorage.getItem("product_name");
+    let productImage = localStorage.getItem("product_image");
+
+    let price = localStorage.getItem("product_price");
+
+    let updateprice = parseInt(price) * parseInt(value);
+
+    let productQuantity = parseInt(value);
+    let productPrice = updateprice;
+
+    console.log(productId);
+    console.log(productPassword);
+    console.log(productName);
+    console.log(productPrice);
+    console.log(productQuantity);
+    console.log(productImage);
+
+    updateForm(productId, productPassword, productName, productPrice, productQuantity, productImage);
+
+  });
+
+  /*$("#cart-list").on("click", ".update", function(e) {
     e.preventDefault();
     //update our update form values
     let productId = $(this).data("id");
 
-    /*let productName = $(this).data("name");
+    let productName = $(this).data("name");
     let productPrice = $(this).data("price");
-    let productId = $(this).data("id");
   
     console.log($(this).data("quantity"));
   
     //[STEP 11]: Load in our data from the selected row and add it to our update contact form 
     $("#update-product-name").val(productName);
     $("#update-product-id").val(productId);
-    $("#update-product-price").val(productPrice);*/
+    $("#update-product-price").val(productPrice);
     $("#update-product-id").val(productId)
     $("#update-cart-container").show();
+
+    console.log(productId)
 
   });//end contact-list listener for update function
 
@@ -294,16 +510,19 @@ $(document).ready(function() {
 
     let updateprice = parseInt($("#product-price").text()) * parseInt(value);
 
+    console.log(value)
+    console.log(parseInt($("#product-price").text()))
     console.log(updateprice)
-
-    let productName = $("#product-name").text();
+    let productPassword = $("#show-password").text();
+    let productName = $("#cart-name").text();
     let productId = $("#update-product-id").val();
     let productPrice = parseInt(updateprice);
     let productQuantity = parseInt(value);
+    let productImage = $("#cart_image").attr('src')
 
     //[STEP 12a]: We call our update form function which makes an AJAX call to our RESTDB to update the selected information
-    updateForm(productId, productName, productPrice, productQuantity);
-  });//end updatecontactform listener
+    updateForm(productId, productPassword, productName, productPrice, productQuantity, productImage);
+  });//end updatecontactform listener */
 
   //delete
   $("#cart-list").on("click", ".delete", function(e) {
@@ -329,10 +548,10 @@ $(document).ready(function() {
 
   //[STEP 13]: function that makes an AJAX call and process it 
   //UPDATE Based on the ID chosen
-  function updateForm(id, productName, productPrice, productQuantity) {
+  function updateForm(id, productPassword, productName, productPrice, productQuantity, productImage) {
     //@TODO create validation methods for id etc. 
 
-    var jsondata = { "name": productName, "price": productPrice, "quantity": productQuantity };
+    var jsondata = { "password": productPassword, "name": productName, "price": productPrice, "quantity": productQuantity, "image": productImage};
     var settings = {
       "async": true,
       "crossDomain": true,
@@ -359,7 +578,13 @@ $(document).ready(function() {
 
   function deleteForm(id, deletePassword, deleteName, deletePrice, deleteQuantity, deleteImage) {
 
-    var jsondata = { "password": deletePassword, "name": deleteName, "price": deletePrice, "quantity": deleteQuantity, "image": deleteImage };
+    var jsondata = { 
+      "password": deletePassword, 
+      "name": deleteName, 
+      "price": deletePrice, 
+      "quantity": deleteQuantity, 
+      "image": deleteImage 
+    };
     var settings = {
       "async": true,
       "crossDomain": true,
