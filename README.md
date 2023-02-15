@@ -34,7 +34,7 @@ Goes over the features in my website.
 ### Future implementations
 - Feature 1- maybe implement a searchbar in future interations, to allow users to find what they need easily
 - Feature 2 - Implement a "design your own Lego character" page, to let users personalise their profiles and make their own LEGO characters.
-- Feature 3 - Implement a profile API that allows users to view their orders and likes, as well as edit their particulars.
+- Feature 3 - Implement a profile API that collect user data which allows users to view their orders and likes, as well as edit their particulars.
 - Feature 4- Implement a point system where users can gain points from rewards, where they can then use the points for discounts in the shop.
 - Feature 5 - Implement a cart API to keep track of users products's quantatiy, price, type of prduct, etc. Which also allows users to checkout and order.
 
