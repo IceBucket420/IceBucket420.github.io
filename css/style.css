@@ -790,7 +790,10 @@
     text-align: center;
     font-family:'Barlow Condensed', sans-serif;
     font-size: 40px;
+    padding-bottom: 5%;
 }
+
+
 
 .order_button {
     padding-top:10px;
@@ -802,7 +805,7 @@
     font-size: 30px;
     border: none;
     border-radius: 10%;
-
+    margin-left: 45%;
   }
 
   /*cart*/
@@ -1273,27 +1276,44 @@ table, th, td {
       }
 
     /*checkout*/
+    
+    
     .address {
-        font-size: 20px;
+        font-size: 30px;
     }
     
     .order_sum {
-        font-size: 20px;
+        font-size: 30px;
     }
-
     
+    
+    .redeem {
+        font-size: 30px;
+    }
+    
+    .promo_code {
+        font-size: 30px;
+    }
+    
+    .payment_method {
+        font-size: 30px;
+    }
+    
+
     .order_button {
-        text-decoration: none;
-        color: black;
-        border: 2px solid black;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-radius: 20px;
-        margin-left: 47%;
+        padding-top:10px;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+        background-color:#f6bc58;
+        font-family:'Sofia Sans Extra Condensed', sans-serif;
+        font-size: 30px;
+        border: none;
+        border-radius: 10%;
+        margin-left: 32%;
       }
     
+
 
 
   }
