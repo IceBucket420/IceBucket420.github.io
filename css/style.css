@@ -915,7 +915,10 @@ table, th, td {
 
 .pf_pf img{
     width:400px;
+}
 
+.pf_pf{
+    text-align: center;
 }
 
 .pf_lc img{
@@ -925,6 +928,37 @@ table, th, td {
 .pfd_user{
     display: flex;
     padding: 3%;
+}
+
+.pfd_user div{
+    padding-left: 3%;
+}
+
+.pfd_email{
+    display: flex;
+    padding: 3%;
+}
+
+.pfd_email div{
+    padding-left: 3%;
+}
+
+.pfd_pass{
+    display: flex;
+    padding: 3%;
+}
+
+.pfd_pass div{
+    padding-left: 3%;
+}
+
+.pf_lc{
+    text-align: center;
+    padding: 5%;
+}
+
+.change{
+    padding-left: 90%;
 }
 
 
