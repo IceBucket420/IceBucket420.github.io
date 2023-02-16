@@ -749,6 +749,7 @@
 }
 
 /*checkout*/
+checout
 
 .address {
     text-align: center;
@@ -1278,15 +1279,12 @@ table, th, td {
 
     /*checkout*/
     .address {
-        text-align: center;
-        font-family:'Barlow Condensed', sans-serif;
         font-size: 20px;
     }
     
     .order_sum {
         text-align: center;
-        font-family:'Barlow Condensed', sans-serif;
-        font-size: 40px;
+        font-size: 20px;
     }
     
     #order_sum {

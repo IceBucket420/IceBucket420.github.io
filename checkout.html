@@ -42,43 +42,44 @@
                 </ul>
             </div>
         </header>
-        <section class="address">
-            <h3>Delivery Address:</h3>
-            <p id="address"></p>
-        </section>
-        <section class="order_sum">
-            <h3>Order Summary</h3>
-            <div id="order_sum">
-                <label>Item:</label>
-                <p id="item_price"></p>
+        <section class="checkout_details>">
+                <h3>Delivery Address:</h3>
+                <p id="address"></p>
+            </section>
+            <section class="order_sum">
+                <h3>Order Summary</h3>
+                <div id="order_sum">
+                    <label>Item:</label>
+                    <p id="item_price"></p>
+                    <br>
+                    <label>Delivery:</label>
+                    <p id="delivery_price">4.50</p>
+                    <br>
+                    <label>Total:</label>
+                    <p id="total"></p>
+                </div>
+            </section>
+            <section class="redeem">
+                <label>Redeem Points</label>
+                <p id="points"></p>
+            </section>
+            <section class="promo_code">
+                <label>Promotional Code</label>
+            </section>
+            <section class="payment_method">
+                <label>SELECT PAYMENT METHOD</label>
                 <br>
-                <label>Delivery:</label>
-                <p id="delivery_price">4.50</p>
+                <input type="checkbox" id="payment1" name="payment1" value="Credit Card">
+                <label for="payment1">Credit Card</label><br>
                 <br>
-                <label>Total:</label>
-                <p id="total"></p>
-            </div>
-        </section>
-        <section class="redeem">
-            <label>Redeem Points</label>
-            <p id="points"></p>
-        </section>
-        <section class="promo_code">
-            <label>Promotional Code</label>
-        </section>
-        <section class="payment_method">
-            <label>SELECT PAYMENT METHOD</label>
-            <br>
-            <input type="checkbox" id="payment1" name="payment1" value="Credit Card">
-            <label for="payment1">Credit Card</label><br>
-            <br>
-            <input type="checkbox" id="payment2" name="payment2" value="Paypal">
-            <label for="payment2">Paypal</label><br>
-            <br>
-            <input type="checkbox" id="payment3" name="payment3" value="PayNow">
-            <label for="payment3">PayNow</label><br>
-        </section>
-        <a class= "order_button" href="order.html">Place Order</a>
+                <input type="checkbox" id="payment2" name="payment2" value="Paypal">
+                <label for="payment2">Paypal</label><br>
+                <br>
+                <input type="checkbox" id="payment3" name="payment3" value="PayNow">
+                <label for="payment3">PayNow</label><br>
+            </section>
+            <a class= "order_button" href="order.html">Place Order</a>
+        </section> 
         <footer>
             <ul class="socials">
                 <li>
