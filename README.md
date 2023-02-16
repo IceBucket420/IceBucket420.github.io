@@ -68,6 +68,9 @@ In this section, I mention all of the languages, frameworks, libraries, and any 
 
  ### Issue
  1. Counter for quantity count in product page had some issues.Javascript was not linked properly.
+ 2. Sign in page does not work as intended, there was some problem with the JavaScript.
+ 3. Secondary bar working as intended, the script had to be linked properly.
+ 4. Sign up page cannot let user sign up, changes to the Javascript was not added properly.
 
  
 ## Credits
