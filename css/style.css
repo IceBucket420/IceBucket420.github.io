@@ -812,6 +812,8 @@
   /*cart*/
 
 .cart_items{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 40px;
     display: flex;
     justify-content: center;
 }
@@ -822,6 +824,7 @@
 }
 
 .cartdetails{
+    text-align: center;
     padding-left: 3%;
 }
 
