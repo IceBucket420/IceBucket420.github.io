@@ -913,6 +913,17 @@ table, th, td {
     margin-bottom: 50px;
 }
 
+.pf_pf img{
+    width:400px;
+
+}
+
+.pf_lc img{
+    width: 800px;
+}
+
+pf
+
 /*resizing*/
   @media screen and (max-width: 576px) {
     
