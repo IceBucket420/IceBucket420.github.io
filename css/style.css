@@ -887,6 +887,12 @@ table, th, td {
     font-size: 40px;
   }
 
+/* profile details*/
+
+.profile-details{
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+}
+
 /*resizing*/
   @media screen and (max-width: 576px) {
     
