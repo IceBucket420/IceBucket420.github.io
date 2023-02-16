@@ -36,6 +36,7 @@ Goes over the features in our website.
 - Feature 12- Cart page implement, which allows users to to view their orders and then access  the checkout.
 - Feature 13- Checkout page implemented, this allows users to view their total order and cost, they can also use points earned from activites to reduce their total, and also chose their payment method.
 - Feature 14- order page implemeted, this allows users to the points earned from ordering.
+-Feature 15 - cart paged implemented, users can view their orders they added from the product deatails pages and then checkout from the page with their orders.
 
 
 ### Future implementations
@@ -43,7 +44,7 @@ Goes over the features in our website.
 - Feature 2 - Implement a "design your own Lego character" page, to let users personalise their profiles and make their own LEGO characters.
 - Feature 3 - Allow users to view their orders and likes, as well as edit their particulars.
 - Feature 4- Implement a point system where users can gain points from rewards, where they can then use the points for discounts in the shop.
-- Feature 5 - Implement a cart API to keep track of users products's quantatiy, price, type of prduct, etc. Which also allows users to checkout and order.
+- Feature 5 - Implement a checkout page for users to view their total and choose their payment methods, and use the points they have for discounts.
 
 
 ## Technologies used
