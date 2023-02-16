@@ -30,11 +30,12 @@ Goes over the features in my website.
 - Feature 6 - Added reward page so that user can claim the points they recieve from activities.
 - Feature 7 - Add a sign up and sign in page, for users to enter their account, with API to store user information.
 - Feature 8- Implement the Quiz for users to play and earn points, as well as, learn more about Legos.
+-Feature 9- User details can be viewable in profile page, such as email, username, points and password.
 
 ### Future implementations
 - Feature 1- maybe implement a searchbar in future interations, to allow users to find what they need easily
 - Feature 2 - Implement a "design your own Lego character" page, to let users personalise their profiles and make their own LEGO characters.
-- Feature 3 - Implement a profile API that collect user data which allows users to view their orders and likes, as well as edit their particulars.
+- Feature 3 - Allow users to view their orders and likes, as well as edit their particulars.
 - Feature 4- Implement a point system where users can gain points from rewards, where they can then use the points for discounts in the shop.
 - Feature 5 - Implement a cart API to keep track of users products's quantatiy, price, type of prduct, etc. Which also allows users to checkout and order.
 
