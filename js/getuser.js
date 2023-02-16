@@ -8,7 +8,7 @@ $(document).ready(function() {
     console.log(email)
 
     $("#username").html(username)
-    $("#pfd_user").html(username)
-    $("#pfd_email").html(email)
-    $("#pfd_pass").html(password)
+    $("#pf_user").html(username)
+    $("#pf_email").html(email)
+    $("#pf_pass").html(password)
 })
