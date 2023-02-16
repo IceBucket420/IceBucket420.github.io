@@ -1,6 +1,9 @@
+//[STEP 0]: Make sure our document is A-OK
+var value = 1;
+
 function increaseCount(a, b) {
   var input = b.previousElementSibling;
-  var value = parseInt(input.value, 10);
+  value = parseInt(input.value, 10);
   value = isNaN(value) ? 0 : value;
   value++;
   input.value = value;
