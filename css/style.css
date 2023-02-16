@@ -902,15 +902,7 @@ table, th, td {
 }
 
 .address_button {
-    padding-top:10px;
-    padding-bottom: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
-    background-color:lightyellow;
-    font-family:'Sofia Sans Extra Condensed', sans-serif;
-    font-size: 30px;
-    border: none;
-    margin-bottom: 50px;
+   text-align: center;
 }
 
 .pf_pf img{
