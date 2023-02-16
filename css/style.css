@@ -881,6 +881,10 @@ table, th, td {
     font-size: 40px;
   }
 
+.order_made img{
+    width:400px;
+}
+
 /* profile details*/
 
 .profile-details{
