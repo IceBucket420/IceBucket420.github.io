@@ -809,6 +809,9 @@
   }
 
   /*cart*/
+#cartstuff{
+    padding: 5%;
+}
 
 .cart_items{
     font-size: 40px;
