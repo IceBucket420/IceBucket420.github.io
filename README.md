@@ -33,6 +33,9 @@ Goes over the features in our website.
 -Feature 9- User details can be viewable in profile page, such as email, username, points and password. Users can also log out from their account through this page
 - Feature 10- A secondary bar which allows users to sign in to LEGOHOLIc. When user is signed in, they can then access the profile page and the cart page.
 - Feature 11- Implemented all product deatails into website. Now all products has a degsinated page, which has deatails about the product for users to learna about the product.
+- Feature 12- Cart page implement, which allows users to to view their orders and then access  the checkout.
+- Feature 13- Checkout page implemented, this allows users to view their total order and cost, they can also use points earned from activites to reduce their total, and also chose their payment method.
+- Feature 14- order page implemeted, this allows users to the points earned from ordering.
 
 
 ### Future implementations
