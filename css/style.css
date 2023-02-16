@@ -1276,6 +1276,67 @@ table, th, td {
         font-size: 20px;
       }
 
+    /*checkout*/
+    .address {
+        text-align: center;
+        font-family:'Barlow Condensed', sans-serif;
+        font-size: 20px;
+    }
+    
+    .order_sum {
+        text-align: center;
+        font-family:'Barlow Condensed', sans-serif;
+        font-size: 40px;
+    }
+    
+    #order_sum {
+        background-color: lightyellow;
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-bottom: 50px;
+    }
+    
+    
+    .redeem {
+        text-align: center;
+        font-family:'Barlow Condensed', sans-serif;
+        font-size: 40px;
+        background-color: lightyellow;
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-bottom: 50px;
+    }
+    
+    .promo_code {
+        text-align: center;
+        font-family:'Barlow Condensed', sans-serif;
+        font-size: 40px;
+        background-color: lightyellow;
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-bottom: 50px;
+    }
+    
+    .payment_method {
+        text-align: center;
+        font-family:'Barlow Condensed', sans-serif;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    
+    .order_button {
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 20px;
+        margin-left: 47%;
+      }
+    
+
 
   }
  
