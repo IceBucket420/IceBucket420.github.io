@@ -1,6 +1,6 @@
 # A website for LEGOHOLIC 
 
-
+[Github](https://github.com/IceBucket420/Intergrated-project)
 ## About
 
  For this project, it is about making a website for a ecommerce platform, LEGOHOLIC, a shop that sells Legos.
