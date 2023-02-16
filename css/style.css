@@ -749,7 +749,11 @@
 }
 
 /*checkout*/
-checout
+
+.checout_details{
+    text-align: center;
+    padding: 5%;
+}
 
 .address {
     text-align: center;
