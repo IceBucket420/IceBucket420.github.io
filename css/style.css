@@ -920,7 +920,7 @@ table, th, td {
 }
 
 .pf_lc img{
-    width: 800px;
+    width: 400px;
 }
 
 .pfd_user{
@@ -1181,6 +1181,34 @@ table, th, td {
     .tri2{
         padding-top:25px;
         padding-left: 72.5%;
+    }
+
+    /*profile details*/
+
+    .profile-details{
+        text-align: center;
+    }
+
+    
+    .profile-details h3{
+        font-size: 50px;
+    }
+    
+    .profile-details div{
+        font-size: 40px;
+    }
+    
+    .pf_pf img{
+        width:200px;
+    }
+    
+    
+    .pf_lc img{
+        width: 200px;
+    }
+    
+    .change{
+        padding-left: 80%;
     }
 
 
