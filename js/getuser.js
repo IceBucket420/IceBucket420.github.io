@@ -16,5 +16,6 @@ $(document).ready(function() {
     $("#pf_email").html(email)
     $("#pf_pass").html(password)
     $("#input_address").html(address)
+    $("#address").html(address)
     $("#points").html(points)
 })
