@@ -19,7 +19,7 @@ Users stories:
 
 ## Features
 
-Goes over the features in my website.
+Goes over the features in our website.
 
 ### Existing Features
 - Feature 1- Navigation bar is implemented, this allows users to access differeent pages.
