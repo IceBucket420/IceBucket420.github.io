@@ -25,12 +25,15 @@ Goes over the features in my website.
 - Feature 1- Navigation bar is implemented, this allows users to access differeent pages.
 - Feature 2 - Added socials and links to LEGO shop to the footer,so that users have more options to learn more about LEGOs.
 - Feature 3 - Add a product page for users to buy Legos, with a search bar to allow users to search for the Legos they want.
-- Feature 4 - Add a contact page so that users are able to find us whenever they have feedback or face issues in the website.
-- Feature 5 - Implement a profile page (still on the process of touching up)
-- Feature 6 - Added reward page so that user can claim the points they recieve from activities.
+- Feature 4 - Add a contact page so that users are able to find us whenever they have feedback or face issues in the website. It also shows the location of our HQ.
+- Feature 5 - Home page implemented, which allows acess to the LEGO quiz, LEGO character design and veiw featured products and is a landing page for users
+- Feature 6 - Added reward page so that user can claim the points they recieve from activities when point system is implemented.
 - Feature 7 - Add a sign up and sign in page, for users to enter their account, with API to store user information.
 - Feature 8- Implement the Quiz for users to play and earn points, as well as, learn more about Legos.
--Feature 9- User details can be viewable in profile page, such as email, username, points and password.
+-Feature 9- User details can be viewable in profile page, such as email, username, points and password. Users can also log out from their account through this page
+- Feature 10- A secondary bar which allows users to sign in to LEGOHOLIc. When user is signed in, they can then access the profile page and the cart page.
+- Feature 11- Implemented all product deatails into website. Now all products has a degsinated page, which has deatails about the product for users to learna about the product.
+
 
 ### Future implementations
 - Feature 1- maybe implement a searchbar in future interations, to allow users to find what they need easily
