@@ -922,7 +922,11 @@ table, th, td {
     width: 800px;
 }
 
-pf
+.pfd_user{
+    display: flex;
+    padding: 3%;
+}
+
 
 /*resizing*/
   @media screen and (max-width: 576px) {
