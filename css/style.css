@@ -616,18 +616,6 @@
     padding: 3%;
 }
 
-.address_button {
-    padding-top:10px;
-    padding-bottom: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
-    background-color:lightyellow;
-    font-family:'Sofia Sans Extra Condensed', sans-serif;
-    font-size: 30px;
-    border: none;
-    margin-bottom: 50px;
-}
-
 
 /*quiz*/
 
@@ -891,6 +879,38 @@ table, th, td {
 
 .profile-details{
     font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.profile-details button{
+    border: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    background-color:#f6bc58;
+    font-size: 25px;
+}
+
+.profile-details h3{
+    font-size: 100px;
+}
+
+.profile-details div{
+    font-size: 80px;
+}
+
+.address_button {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:lightyellow;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    border: none;
+    margin-bottom: 50px;
 }
 
 /*resizing*/
