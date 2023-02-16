@@ -750,9 +750,9 @@
 
 /*checkout*/
 
-.checout_details{
-    text-align: center;
-    padding: 5%;
+.checkout_details{
+    justify-content: center;
+    padding: 10%;
 }
 
 .address {
