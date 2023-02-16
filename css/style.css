@@ -816,27 +816,12 @@
     justify-content: center;
 }
 
-.cartimg img{
-    width:400px;
-    height: 400px;
-}
-
-.cartdetails{
-    font-family:'Sofia Sans Extra Condensed', sans-serif;
-    text-align: center;
-    padding-left: 3%;
-}
-
 table, th, td {
     padding-right: 150px;
     padding-bottom: 50px;
     text-align: center;
   }
 
-  #cartstuff{
-    justify-content: center;
-    padding: 5%;
-  }
 
   .cart_heading {
     font-family:'Sofia Sans Extra Condensed', sans-serif;
@@ -858,6 +843,7 @@ table, th, td {
   #cart_info {
     margin-left: 15%;
   }
+
 #cart-list {
     margin-bottom: 10%;
     font-family:'Sofia Sans Extra Condensed', sans-serif;
