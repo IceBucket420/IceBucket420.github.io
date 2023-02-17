@@ -809,16 +809,15 @@
   }
 
   /*cart*/
-#cartstuff{
-    padding: 5%;
+  .cart_image {
+    width: 400px;
+    height: 350px;
 }
 
 table, th, td {
     padding-right: 150px;
     padding-bottom: 50px;
-    text-align: center;
   }
-
 
   .cart_heading {
     font-family:'Sofia Sans Extra Condensed', sans-serif;
@@ -826,25 +825,11 @@ table, th, td {
     text-align: center;
   }
 
-  #cart_produce {
-    margin-left: 20%;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .cart_photo {
-    height: 350px;
-    width: 350px;
-  }
-
-  #cart_info {
-    margin-left: 15%;
-  }
-
 #cart-list {
     margin-bottom: 10%;
     font-family:'Sofia Sans Extra Condensed', sans-serif;
     font-size: 30px;
+    margin-left: 20%;
 }
 
 #update-heading {
