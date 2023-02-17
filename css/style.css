@@ -841,10 +841,7 @@ a{
 table, th, td {
     padding-right: 150px;
     padding-bottom: 50px;
-    all: initial;
   }
-
-
 
   .cart_heading {
     font-family:'Sofia Sans Extra Condensed', sans-serif;
