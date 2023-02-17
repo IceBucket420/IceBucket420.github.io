@@ -51,36 +51,34 @@
             <label id="show-password" hidden>Password</label>
             <br>
             <label id="show-email" hidden>Email</label>
-        <section id="cartstuff">
-            <table class="table" id="cart-list">
-                <thead>
+        <table class="table" id="cart-list">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
                     <tr>
-                        <th></th>
-                        <th></th>
-                        <th></th>
+                        <td rowspan="3">
+                            <img class= "cart_image" id="product-image">
+                        </td>
+                        <td>Name</td>
+                        <td>Del</td>
                     </tr>
-                </thead>
-                <tbody>
                     <tr>
-                        <tr>
-                            <td rowspan="3">
-                                <img class= "cart_image" id="product-image">
-                            </td>
-                            <td>Name</td>
-                            <td>Del</td>
-                        </tr>
-                        <tr>
-                            <td>Price</td>
-                            <td>Update</td>
-                        </tr>
-                        <tr>
-                            <td>Quantity</td>
-                        </tr>      
+                        <td>Price</td>
+                        <td>Update</td>
                     </tr>
-                </tbody>
-            </table>
-            <a class= "checkout_button" href="checkout.html">Check Out</a>
-        </section>
+                    <tr>
+                        <td>Quantity</td>
+                    </tr>      
+                </tr>
+            </tbody>
+        </table>
+        <a class= "checkout_button" href="checkout.html">Check Out</a>
 
               <div class="container mt-5" id="update-cart-container">
                 <div id="add-update-msg">
@@ -102,7 +100,6 @@
                     </form>
                 </div>
             </div>
-    
         <footer>  
             <footer>
                 <ul class="socials">
